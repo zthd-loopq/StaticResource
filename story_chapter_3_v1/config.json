@@ -1,0 +1,251 @@
+{
+  "templateId": "nMghiUAU",
+  "componentIds": [
+    "PHlKEka1",
+    "xy03VIH4",
+    "PblkHOff",
+    "jg0tXLgF",
+    "XqXZoaKe",
+    "YxZ3SRcg",
+    "Rhfos0N3",
+    "e65gpOlw",
+    "jeoS2bW8",
+    "7ooLftqp",
+    "QagjyHjd",
+    "ag8TsDAT",
+    "UDeDdnnd",
+    "6T07iDel",
+    "VOtRyEl6",
+    "rnlNdHXR",
+    "ZwhVC4gq",
+    "08pzLnjH",
+    "2xxZpBZa",
+    "jYNn6lV4",
+    "CxWta4KO",
+    "fBZONvSp",
+    "GaeSmkQ8",
+    "spgX578H",
+    "2pQqIGzM",
+    "N5JcFlho",
+    "TmHlZyFc",
+    "Mz0NyGjF",
+    "h3yfv2eh",
+    "mUdrCLGH",
+    "Mkehtowy",
+    "JuxdnjeE",
+    "x111TjXl",
+    "6ajtGyHT",
+    "3eatpQrk",
+    "QeZBfiNg",
+    "pzGnMXfu",
+    "54GKFFCi",
+    "cBFfEers",
+    "mCKuf6xz",
+    "vnVs2ZBb",
+    "QrLKt3RY",
+    "3aDU2Ezl",
+    "dHU5eIxU",
+    "ANumbmMx",
+    "2z1mVw6Q",
+    "avZxYCND",
+    "fnx15kv8",
+    "epoLkFer",
+    "udAcFcVN",
+    "ik0zbnTj",
+    "JN6b0HjK",
+    "5D5WruFX",
+    "HAS8lozU",
+    "VPTuVTQ6",
+    "KLvNXPTD",
+    "nYumG04r",
+    "rKxKPL3y",
+    "MsjIcKGQ",
+    "vq9t3EXO",
+    "x3VnV6wl",
+    "Ie7bDxW2",
+    "lrmKgfIm",
+    "6CG5a6Vk",
+    "QNQezdgY",
+    "hCZBmLfY",
+    "NgVzWmEv",
+    "3KJ01HW6",
+    "NKeP8R44",
+    "d3KbTGsi",
+    "puH4Zktw",
+    "HX8WQFAZ",
+    "zivtiNYU",
+    "K4T4WK15",
+    "qG4cNaRM",
+    "yFV68mH8",
+    "jpTiGwU3",
+    "BfUXXD3R",
+    "2aBS6Wjk",
+    "2UP1VipI",
+    "kf75wzJ1",
+    "kDrPkEim",
+    "h1B8V3lG",
+    "GLrrleHc",
+    "gNunt7bI",
+    "EXFq4pEX",
+    "nZlR3F3M",
+    "10Fc7qQC",
+    "gHihE8Wk",
+    "Hp9CSaMO",
+    "upnW6dVK",
+    "ZqRF1frJ",
+    "npqznKOV",
+    "iTceTZ6y",
+    "pVp3aqFd",
+    "IdDrx8vG",
+    "fbTuutTN"
+  ],
+  "front": [
+    {
+      "dialogue": "Scarlett's a billionaire heir? I actually divorced her... No! This can't be true!",
+      "characterName": "Blake",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Remember? You said you wanted a divorce, and the papers were signed.",
+      "characterName": "Scarlett",
+      "characterImg": "result:m3k7p1w5",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Scarlett, I'll remarry you. Please forgive me.",
+      "characterName": "Blake",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "You will remarry me? Who do you think you are? Get out.",
+      "characterName": "Scarlett",
+      "characterImg": "result:m3k7p1w5",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I'm your husband! You can't do this to me!",
+      "characterName": "Blake",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "You're not anymore. Edith, let's go.",
+      "characterName": "Scarlett",
+      "characterImg": "result:m3k7p1w5",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Yes, Miss.",
+      "characterName": "Edith",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Scarlett and Edith walk away under the gaze of the crowd, heading back to the Harrington estate.",
+      "characterName": "special:narration",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "I've been away for years, and I can't believe the room still looks exactly the same.",
+      "characterName": "Scarlett",
+      "characterImg": "result:m3k7p1w5",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I wasn't sure when you'd be home, so I've had someone clean every day.",
+      "characterName": "Edith",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Home... Honestly, I'm still not sure if I should come back to this cold, heartless place.",
+      "characterName": "Scarlett",
+      "characterImg": "result:m3k7p1w5",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I know you'll figure it out in time. But for now, why don't you change into something comfy for dinner?",
+      "characterName": "Edith",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Thank you, Edith. You're the only one here who's been nice to me.",
+      "characterName": "Scarlett",
+      "characterImg": "result:m3k7p1w5",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "As Scarlett enjoyed the long-awaited meal, she overheard the maids chatting.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Did you hear? Our young miss is back.",
+      "characterName": "Cook",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I know, Mrs. Vivian told us to keep an eye on her. I wonder why.",
+      "characterName": "Maid",
+      "characterImg": "character_05.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "You newcomers wouldn't know, but back in the day, we all guessed that Miss Scarlett's mom's death had something to do with Vivian.",
+      "characterName": "Cook",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Mrs. Vivian is so nervous, she must be afraid Miss Scarlett will come back and uncover the truth.",
+      "characterName": "Cook",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Shh, stop talking...",
+      "characterName": "Maid",
+      "characterImg": "character_05.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "The truth about my mother’s death? What?",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    }
+  ]
+}

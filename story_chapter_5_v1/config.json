@@ -1,0 +1,334 @@
+{
+  "templateId": "nMghiUAU",
+  "componentIds": [
+    "E67qWy5m",
+    "sGtWBLOc",
+    "RBp5H9F6",
+    "JAMLfQvG",
+    "ZEdxl62n",
+    "puH4Zktw",
+    "pCuXQ8iD",
+    "Lj3s5kFg",
+    "rqAshuyz",
+    "iB7qelYT",
+    "SVmwyQB0",
+    "6j9ZJigL",
+    "UPFcQoPY",
+    "yOQryf5a",
+    "jg0tXLgF",
+    "rnlNdHXR",
+    "7RoEBGbN",
+    "BYTITsdL",
+    "2aBS6Wjk",
+    "4SXkAUHb",
+    "zXiRq5fO",
+    "iC9glznh",
+    "yGeK847T",
+    "sCGW0bjJ",
+    "kK8Ew9a3",
+    "XG1i4RzZ",
+    "lS1UltBy",
+    "u5KtwHaR",
+    "rfJCsSFX",
+    "SAxBPEK2",
+    "Nfz8g7YR",
+    "2SviCGmp",
+    "fBZONvSp",
+    "6ajtGyHT",
+    "UDeDdnnd",
+    "2pQqIGzM",
+    "VOtRyEl6",
+    "lR2vL2uq",
+    "7t8u5BSd",
+    "qRKpv4QK",
+    "ik0zbnTj",
+    "LKQqB0O2",
+    "406yJM7L",
+    "x111TjXl",
+    "6Gc6JE5Z",
+    "spgX578H",
+    "zjzv2TU1",
+    "SJtzVBot",
+    "54GKFFCi",
+    "K87z6is5",
+    "Rhfos0N3",
+    "bkV5rmkl",
+    "h6yPV9Tz",
+    "CxWta4KO",
+    "dHU5eIxU",
+    "5jw6NoHw",
+    "mEz5ptSt",
+    "gSJl755o",
+    "pzGnMXfu",
+    "SZA9f29Z",
+    "ZtWyeIIz",
+    "hCZBmLfY",
+    "2EsNDiDX",
+    "JCpzznvK",
+    "UUPcrhqx",
+    "EMYFM9Wq",
+    "T7DOVPT2",
+    "nsebsTQa",
+    "RCNcFzzg",
+    "Mz0NyGjF",
+    "vnVs2ZBb",
+    "WJop5VIc",
+    "zOrM2AZz",
+    "qV25sJUj",
+    "NkWEkZ3y",
+    "2yV3T15j",
+    "5jYJ7eas",
+    "QO2Jmc3b",
+    "prwjkAYs",
+    "mUdrCLGH",
+    "qEFRmZTI",
+    "YzLckkpX",
+    "3KJ01HW6",
+    "sCVhUiFm",
+    "gnB3IVAt",
+    "g2fUHVoy",
+    "epoLkFer",
+    "e65gpOlw",
+    "Q2yFyQgG",
+    "BfUXXD3R",
+    "KnOBlDYW",
+    "FcBQgCBd",
+    "4XoZp8vA",
+    "uc3C7dHZ",
+    "hIDaaaqb",
+    "jYNn6lV4",
+    "GCbegn82",
+    "O5EYn3UN",
+    "6bKGn23T",
+    "2UP1VipI",
+    "kf75wzJ1",
+    "kDrPkEim",
+    "h1B8V3lG",
+    "GLrrleHc",
+    "gNunt7bI",
+    "EXFq4pEX",
+    "nZlR3F3M",
+    "10Fc7qQC",
+    "gHihE8Wk",
+    "Hp9CSaMO",
+    "upnW6dVK",
+    "ZqRF1frJ",
+    "npqznKOV",
+    "iTceTZ6y",
+    "pVp3aqFd",
+    "IdDrx8vG",
+    "fbTuutTN"
+  ],
+  "front": [
+    {
+      "dialogue": "Who's there—Miss Scarlett? What are you doing here?",
+      "characterName": "Edith",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Oh, it's you. I heard that there was more to my mother's accidental death, so I came to investigate.",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Miss, do you already know?",
+      "characterName": "Edith",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Know what? Edith, tell me!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "After your mother's accident, on the way to the hospital, she told me it was Vivian who caused it.",
+      "characterName": "Edith",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Why didn't you tell me this before?!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "If you didn't know about all this, maybe you could've grown up safer. That was also your mother's wish.",
+      "characterName": "Edith",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Mom... Vivian! Why did she want to kill my mom? Was it just for the Harrington family's fortune?!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Only she knows the truth, Miss, don't be too sad.",
+      "characterName": "Edith",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "No, I must find out the truth! And the Harrington family's fortune—I'll take it back!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I won't let Vivian get away with this. I must return to the family to avenge my mother.",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Miss Scarlett. If this is your wish, I will help you to the best of my ability.",
+      "characterName": "Edith",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Mr. Harrington will return home tomorrow. Perhaps you should meet him.",
+      "characterName": "Edith",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "That profit-driven father of mine? I'll make good preparations.",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "The next day",
+      "characterName": "special:narration"
+    },
+    {
+      "dialogue": "Now, to greet my father, I should change into something more appropriate.",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_01.webp"
+  },
+  "behind": [
+    {
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Have you finally realized that this family is everything to you and decided to come back?",
+      "characterName": "Mr. Harrington",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "..Yes, Father.",
+      "characterName": "Scarlett",
+      "characterImg": "result:t5u2j7k4",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Hmph. So what if you're back? You even lost your husband to me—Mom! Why did you step on me?",
+      "characterName": "Chloe",
+      "characterImg": "character_05.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Scarlett, as your stepmother, I hope you won't be as stubborn as before.",
+      "characterName": "Vivian",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "That vicious woman! No... I must hold it in.",
+      "characterName": "Scarlett",
+      "characterImg": "result:t5u2j7k4",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "After all these years, I've really grown a lot. I hope Father can give me a chance to prove myself.",
+      "characterName": "Scarlett",
+      "characterImg": "result:t5u2j7k4",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "You wasted a lot of time being an ordinary person. What kind of ability do you have?",
+      "characterName": "Mr. Harrington",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Please pick a struggling business from the family company for me.",
+      "characterName": "Scarlett",
+      "characterImg": "result:t5u2j7k4",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "After becoming CEO, I will turn it around in six months and prove myself.",
+      "characterName": "Scarlett",
+      "characterImg": "result:t5u2j7k4",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Darling, Scarlett should still stay at home...",
+      "characterName": "Vivian",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Sounds like I'm not losing anything. I agree. Go ahead and take charge in a few days.",
+      "characterName": "Mr. Harrington",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Yes, Father.",
+      "characterName": "Scarlett",
+      "characterImg": "result:t5u2j7k4",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Scarlett, since you're so ambitious, let's see how you handle my methods.",
+      "characterName": "Vivian",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    }
+  ]
+}

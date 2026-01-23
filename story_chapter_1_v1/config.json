@@ -1,0 +1,313 @@
+{
+  "templateId": "nMghiUAU",
+  "componentIds": [
+    "PHlKEka1",
+    "HvkKGdLA",
+    "RBp5H9F6",
+    "XG1i4RzZ",
+    "d3NqOeIp",
+    "YxZ3SRcg",
+    "mCKuf6xz",
+    "2aBS6Wjk",
+    "rqAshuyz",
+    "x3VnV6wl",
+    "UUPcrhqx",
+    "ag8TsDAT",
+    "xy03VIH4",
+    "PblkHOff",
+    "jg0tXLgF",
+    "XqXZoaKe",
+    "ZwhVC4gq",
+    "dxPPOrYk",
+    "SAxBPEK2",
+    "4SXkAUHb",
+    "UqKRQ3y1",
+    "nxgVsRc5",
+    "xMe4ig3M",
+    "sCGW0bjJ",
+    "pzGnMXfu",
+    "lS1UltBy",
+    "Mz0NyGjF",
+    "S020vJNg",
+    "i71pLbNB",
+    "9hxdu58G",
+    "rxW7D41w",
+    "QagjyHjd",
+    "71W6nxai",
+    "spgX578H",
+    "SJtzVBot",
+    "nYumG04r",
+    "cBFfEers",
+    "Rhfos0N3",
+    "9cgMiw2s",
+    "zivtiNYU",
+    "TQSQcN67",
+    "SVmwyQB0",
+    "VEtZ7YtU",
+    "3eatpQrk",
+    "aHkL6l3B",
+    "epoLkFer",
+    "08pzLnjH",
+    "D0xUxL8g",
+    "h6yPV9Tz",
+    "u82QHOsD",
+    "6bKGn23T",
+    "2z1mVw6Q",
+    "BHmif88w",
+    "FcBQgCBd",
+    "h3yfv2eh",
+    "e65gpOlw",
+    "vq9t3EXO",
+    "9VeRYQlQ",
+    "hObNNRu1",
+    "QeZBfiNg",
+    "7t8u5BSd",
+    "Kb8JptI9",
+    "qEFRmZTI",
+    "aZ0dJILm",
+    "3OFJcLxN",
+    "oe5Wqtv8",
+    "yFV68mH8",
+    "2xxZpBZa",
+    "Mkehtowy",
+    "EWU3p4Y0",
+    "9GiiXmrm",
+    "KLvNXPTD",
+    "uxXHuWlj",
+    "1jBdyaUL",
+    "rPt8hPbd",
+    "jeoS2bW8",
+    "5yTvXBT4",
+    "NkWEkZ3y",
+    "2UP1VipI",
+    "kf75wzJ1",
+    "kDrPkEim",
+    "h1B8V3lG",
+    "GLrrleHc",
+    "gNunt7bI",
+    "EXFq4pEX",
+    "nZlR3F3M",
+    "10Fc7qQC",
+    "gHihE8Wk",
+    "Hp9CSaMO",
+    "upnW6dVK",
+    "ZqRF1frJ",
+    "npqznKOV",
+    "iTceTZ6y",
+    "pVp3aqFd",
+    "IdDrx8vG",
+    "fbTuutTN"
+  ],
+  "front": [
+    {
+      "dialogue": "What?! My husband is cheating on me with my sister?",
+      "characterName": "Scarlett",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 1
+    },
+    {
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 1
+    },
+    {
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "He's gonna marry me.",
+      "characterName": "Chloe",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Get out of my house! I'm divorcing you. We are done!",
+      "characterName": "Blake",
+      "characterImg": "character_05.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "backgroundImg": "bg_04.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Scarlett left the place that hurt her and went back to where she belonged.",
+      "characterName": "special:narration"
+    },
+    {
+      "dialogue": "Stop right there! This is the Harrington state. No beggars allowed!",
+      "characterName": "Security Guard",
+      "characterImg": "character_08.webp",
+      "backgroundImg": "bg_05.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "I'm not a beggar. I'm the owner of this place.",
+      "characterName": "Scarlett",
+      "characterImg": "character_07.webp",
+      "backgroundImg": "bg_05.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "My God, is that you, Miss Scarlett? You're finally back!",
+      "characterName": "Edith",
+      "characterImg": "character_09.webp",
+      "backgroundImg": "bg_05.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Yes, it's me. It's so good to see you, Edith.",
+      "characterName": "Scarlett",
+      "characterImg": "character_07.webp",
+      "backgroundImg": "bg_05.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Open the door, now.",
+      "characterName": "Edith",
+      "characterImg": "character_09.webp",
+      "backgroundImg": "bg_05.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Yes, ma'am!",
+      "characterName": "Security Guard",
+      "characterImg": "character_10.webp",
+      "backgroundImg": "bg_05.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Edith, Blake and I are divorced.",
+      "characterName": "Scarlett",
+      "characterImg": "character_07.webp",
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Miss, don't say anything. First, go take a bath and change. I don't want you getting sick.",
+      "characterName": "Edith",
+      "characterImg": "character_09.webp",
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Alright, lay out my most dazzling gowns and all my jewels. I'm going back to being the radiant Lady Spencer.",
+      "characterName": "Scarlett",
+      "characterImg": "character_07.webp",
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_06.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Miss Scarlett, how have you been? Your stepmother and sister only grew worse while you were away.",
+      "characterName": "Edith",
+      "characterImg": "character_09.webp",
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "I can imagine. I left 'cause I hated their mess. I wanted a quiet life—but my sister had other plans! Fine, I'm fighting back!",
+      "characterName": "Scarlett",
+      "characterImg": "result:y8d2n4x6",
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "It gladdens me to hear that, Miss. Do you have a plan?",
+      "characterName": "Edith",
+      "characterImg": "character_09.webp",
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Blake’s company has its IPO celebration tomorrow. The perfect stage for my family comeback.",
+      "characterName": "Scarlett",
+      "characterImg": "result:y8d2n4x6",
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Oh, I can’t wait to see Chloe and your ex-husband’s faces then!",
+      "characterName": "Edith",
+      "characterImg": "character_09.webp",
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "The next day, Scarlett arrives at Blake's celebration party.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_07.webp"
+    },
+    {
+      "dialogue": "Hold on! No invitation, no entry.",
+      "characterName": "Waiter",
+      "characterImg": "character_11.webp",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Blake invited all the city’s elite for his IPO, right?",
+      "characterName": "Scarlett",
+      "characterImg": "result:y8d2n4x6",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "VIPs don’t need invites—but you do. No way!",
+      "characterName": "Waiter",
+      "characterImg": "character_11.webp",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "I’m Mr. Harrington’s daughter! In this city, I can just—",
+      "characterName": "Scarlett",
+      "characterImg": "result:y8d2n4x6",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Cut it out! Everyone knows you’re just his ex-wife. The boss said never to let you in—don’t make me force you!",
+      "characterName": "Waiter",
+      "characterImg": "character_11.webp",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Blake, look! Isn’t that your ex-wife outside?",
+      "characterName": "Chloe",
+      "characterImg": "character_12.webp",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Scarlett! What are you doing here?! I know you still love me—but we’re over, got it?",
+      "characterName": "Blake",
+      "characterImg": "character_13.webp",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "You’re delusional. I’m not here to—",
+      "characterName": "Scarlett",
+      "characterImg": "result:y8d2n4x6",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Don’t listen to her! This shameless woman—throw her out!",
+      "characterName": "Chloe",
+      "characterImg": "character_12.webp",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 2
+    }
+  ]
+}

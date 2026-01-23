@@ -55,98 +55,106 @@ format_size() {
     fi
 }
 
-compress_png_files() {
-    local dir=$1
-    
-    for file in "$dir"/*.png; do
-        [ -f "$file" ] || continue
-        
-        if [[ "$file" == *".9.png" ]]; then
-            echo "  [skip] .9.png: $(basename "$file")"
-            TOTAL_NINE_PATCH=$((TOTAL_NINE_PATCH + 1))
-            continue
-        fi
-        
-        local original_size=$(stat -f%z "$file" 2>/dev/null)
-        if [ -z "$original_size" ]; then
-            continue
-        fi
-        
-        local temp_file="${file}.tmp.png"
-        
-        if pngquant --quality=65-80 --output "$temp_file" "$file" 2>/dev/null; then
-            local new_size=$(stat -f%z "$temp_file" 2>/dev/null)
-            
-            if [ -n "$new_size" ] && [ "$new_size" -lt "$original_size" ]; then
-                mv "$temp_file" "$file"
-                local saved=$((original_size - new_size))
-                TOTAL_SAVED=$((TOTAL_SAVED + saved))
-                TOTAL_PNG=$((TOTAL_PNG + 1))
-                echo "  [ok] PNG: $(basename "$file") $(format_size $original_size) -> $(format_size $new_size)"
-            else
-                rm -f "$temp_file"
-                echo "  [--] PNG not smaller: $(basename "$file")"
-            fi
+compress_png_file() {
+    local file=$1
+
+    if [[ "$file" == *".9.png" ]]; then
+        echo "  [skip] .9.png: $file"
+        TOTAL_NINE_PATCH=$((TOTAL_NINE_PATCH + 1))
+        return
+    fi
+
+    local original_size=$(stat -f%z "$file" 2>/dev/null)
+    if [ -z "$original_size" ]; then
+        return
+    fi
+
+    local temp_file="${file}.tmp.png"
+
+    if pngquant --quality=65-80 --output "$temp_file" "$file" 2>/dev/null; then
+        local new_size=$(stat -f%z "$temp_file" 2>/dev/null)
+
+        if [ -n "$new_size" ] && [ "$new_size" -lt "$original_size" ]; then
+            mv "$temp_file" "$file"
+            local saved=$((original_size - new_size))
+            TOTAL_SAVED=$((TOTAL_SAVED + saved))
+            TOTAL_PNG=$((TOTAL_PNG + 1))
+            echo "  [ok] PNG: $file $(format_size $original_size) -> $(format_size $new_size)"
         else
             rm -f "$temp_file"
+            echo "  [--] PNG not smaller: $file"
         fi
-    done
+    else
+        rm -f "$temp_file"
+    fi
 }
 
-compress_webp_files() {
-    local dir=$1
-    
-    for file in "$dir"/*.webp; do
-        [ -f "$file" ] || continue
-        
-        local original_size=$(stat -f%z "$file" 2>/dev/null)
-        if [ -z "$original_size" ]; then
-            continue
-        fi
-        
-        local temp_file="${file}.tmp"
-        
-        if cwebp -q 80 -m 6 -mt "$file" -o "$temp_file" 2>/dev/null; then
-            local new_size=$(stat -f%z "$temp_file" 2>/dev/null)
-            
-            if [ -n "$new_size" ] && [ "$new_size" -lt "$original_size" ]; then
-                mv "$temp_file" "$file"
-                local saved=$((original_size - new_size))
-                TOTAL_SAVED=$((TOTAL_SAVED + saved))
-                TOTAL_WEBP=$((TOTAL_WEBP + 1))
-                echo "  [ok] WebP: $(basename "$file") $(format_size $original_size) -> $(format_size $new_size)"
-            else
-                rm -f "$temp_file"
-                echo "  [--] WebP not smaller: $(basename "$file")"
-            fi
+compress_webp_file() {
+    local file=$1
+
+    local original_size=$(stat -f%z "$file" 2>/dev/null)
+    if [ -z "$original_size" ]; then
+        return
+    fi
+
+    local temp_file="${file}.tmp"
+
+    if cwebp -q 80 -m 6 -mt "$file" -o "$temp_file" 2>/dev/null; then
+        local new_size=$(stat -f%z "$temp_file" 2>/dev/null)
+
+        if [ -n "$new_size" ] && [ "$new_size" -lt "$original_size" ]; then
+            mv "$temp_file" "$file"
+            local saved=$((original_size - new_size))
+            TOTAL_SAVED=$((TOTAL_SAVED + saved))
+            TOTAL_WEBP=$((TOTAL_WEBP + 1))
+            echo "  [ok] WebP: $file $(format_size $original_size) -> $(format_size $new_size)"
         else
             rm -f "$temp_file"
+            echo "  [--] WebP not smaller: $file"
         fi
-    done
+    else
+        rm -f "$temp_file"
+    fi
+}
+
+compress_png_files_recursive() {
+    local dir=$1
+
+    while IFS= read -r -d '' file; do
+        compress_png_file "$file"
+    done < <(find "$dir" -type f -name "*.png" -print0)
+}
+
+compress_webp_files_recursive() {
+    local dir=$1
+
+    while IFS= read -r -d '' file; do
+        compress_webp_file "$file"
+    done < <(find "$dir" -type f -name "*.webp" -print0)
 }
 
 main() {
     check_dependencies
-    
+
     echo "开始扫描 chapter 文件夹..."
     echo ""
-    
+
     local temp_list=$(mktemp)
     find . -type d -name "*chapter*" > "$temp_list"
-    
+
     while IFS= read -r chapter_dir; do
         [ -z "$chapter_dir" ] && continue
         CHAPTER_COUNT=$((CHAPTER_COUNT + 1))
-        echo "处理目录: $chapter_dir"
-        
-        compress_png_files "$chapter_dir"
-        compress_webp_files "$chapter_dir"
-        
+        echo "处理目录 (递归): $chapter_dir"
+
+        compress_png_files_recursive "$chapter_dir"
+        compress_webp_files_recursive "$chapter_dir"
+
         echo ""
     done < "$temp_list"
-    
+
     rm -f "$temp_list"
-    
+
     echo "================================"
     echo "压缩完成"
     echo "================================"
