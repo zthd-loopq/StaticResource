@@ -1,0 +1,255 @@
+{
+  "templateId": "lVkjJdC1",
+  "componentIds": [
+    "G11AwzLK",
+    "zIoCb43t",
+    "7Gv5pKGv",
+    "q5qvpqWN",
+    "UlUvu86r",
+    "HoMonrGn",
+    "Z2qPUz9g",
+    "BAXUhE75",
+    "x2uLEMFP",
+    "IXzmsGhM",
+    "4ShCjlQA",
+    "IXZg41Ym",
+    "uqKV1mjU",
+    "qCOYYMut",
+    "vmUpUc0T",
+    "SigEgFx1",
+    "UI2eVhVf",
+    "WcNEwkPd",
+    "ZTY6TkE0",
+    "YfleYdsA",
+    "fycH24Gi",
+    "RPS8ylEt",
+    "0uzwVoLA",
+    "nJ9v7oTg",
+    "TaJfXjSU",
+    "v4XS9zxN",
+    "aTlxhTS7",
+    "ISeiLgvl",
+    "dJ00Jtss",
+    "Bl9ucXEd",
+    "VAmA0ko7",
+    "2Rjw0CW6",
+    "6aoR4df1",
+    "0algZ1Gv",
+    "5d8A9DPD",
+    "BvIkFqHo",
+    "Ww16N5qS",
+    "61QlQU6r",
+    "00Dnda7H",
+    "AlVyUsjz",
+    "GZKrG4Fb",
+    "EOLp4HpC",
+    "In6OezgF",
+    "5QCXDJT7",
+    "uXxYC35f",
+    "3bBb9VBF",
+    "WWT0Nn4X",
+    "WwYjUC9S",
+    "S6EqMULr",
+    "mP6mmvp6",
+    "7gElKqBZ",
+    "u5rJqAfW",
+    "uPem3suI",
+    "uRXTWCj3",
+    "alKhUjYv",
+    "lseHH0OP",
+    "Vxqyri1U",
+    "008XH9sT",
+    "RGMEHYyF",
+    "CAQvT3b2",
+    "hAA0eCIp",
+    "GlHRMB9f",
+    "cMakwbBf",
+    "uzvx57h4",
+    "TFe8FqH3",
+    "jF4clg8C",
+    "xRbyNWC0",
+    "7pyXG2yj",
+    "O1pCmnqJ",
+    "M0cvidu3",
+    "amSr2Xui",
+    "QDf92qPn",
+    "wq16cFVg",
+    "H1UzOt3h",
+    "9P5bQ8KS",
+    "9XAuEtuy",
+    "ZSqZ4TnE",
+    "zaqBQaXI",
+    "JehB08mx",
+    "cVeL0TPH",
+    "nGvDwufE",
+    "zv0NJWoO",
+    "eOq7lobZ",
+    "29Gj1UV1",
+    "iJxdtMSk",
+    "i9oORvkv",
+    "i1imKgE9",
+    "UlattiRI",
+    "FQcgNdBl",
+    "KYerSoZa"
+  ],
+  "front": [
+    {
+      "dialogue": "What do they mean? The truth about my mother's death...",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Wasn't my mother's death just a car accident?",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I need to go investigate my stepmother's room.",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I remember her room...",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I'm sorry, Miss Scarlett. No one is allowed near her when Mrs. Vivian not home.",
+      "characterName": "Head Maid",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "I'm a member of the Harrington family. I don't think I'm \"just anyone.\"",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I'm sorry, please leave.",
+      "characterName": "Head Maid",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "She's definitely going to report my actions to Vivian. Maybe I should come back at another time.",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Alright, I'll go back to my room then.",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Hmph, she really thinks she's the lady of the house.",
+      "characterName": "Head Maid",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "This house is full of Vivian's spies. I need to come up with a way to investigate.",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Got it! Since she has the maids monitoring me, I can just become a maid myself!",
+      "characterName": "Scarlett",
+      "characterImg": "result:b9v4z2r8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Scarlett waited until late at night to sneak into her stepmother's study again.",
+      "characterName": "special:narration"
+    },
+    {
+      "dialogue": "Finally, I'm in.",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Are there any clues related to my mother's death in here...?",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "decorationImg": "button_01.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "This is my mother's necklace! I remember she used to wear it all the time. Vivian must have stolen it!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "But I've never seen Vivian wear it. So why did she steal the necklace?",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Just as Scarlett is puzzled, footsteps suddenly sound outside the door.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Someone's coming? I need to hide quickly!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Who's in there?!",
+      "characterName": "Someone",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Oh no!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s1f6g3h9",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "templateId": "80EowtBu",
+  "componentIds": [
+    "gTqF2e9S",
+    "U6sFO7OJ",
+    "h2GWTiPm",
+    "6jXdmnMC",
+    "2hXGSpv3",
+    "2K9XDZre",
+    "OMX0VrA3",
+    "Ear0l1bK",
+    "d1fJmRPI",
+    "syCepQRj",
+    "KwMBaHsa",
+    "8WixX16h",
+    "drawReru",
+    "AC5gQfkp",
+    "VVfLnNU7",
+    "cw2iO3Dv",
+    "ZTiKBOF2",
+    "IqFIJKcM",
+    "ZJ0EuznO",
+    "WUP2PmJ4",
+    "5kOFWaEM",
+    "TWd6hzrh",
+    "YIhbCmww",
+    "X2Ewxuih",
+    "g9mTJcJ0",
+    "OfXLusom",
+    "K6yM8DcT",
+    "HvxKfcoG",
+    "WWDrtpiC",
+    "kcwJai6Z",
+    "IHd1dJQh",
+    "UMVKRMwR",
+    "c47IWICp",
+    "nTBlxkhg",
+    "dUVVVHa6",
+    "noIUvFBJ",
+    "SickUP5p",
+    "SYMQ4qG7",
+    "XTqELk9j",
+    "0qPoIcYm",
+    "QpjsXOjW",
+    "Ia3yTzpE",
+    "ttynJoNf",
+    "z1zsc0WG",
+    "bqxhU2Ep",
+    "qIga0e16"
+  ],
+  "front": [
+    {
+      "dialogue": "People are admiring Scarlett's beauty when suddenly, a young girl rushes out, her face full of excitement.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_01.webp"
+    },
+    {
+      "dialogue": "Scarlett? Is that really you?",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "She looks so familiar. Like one of my childhood friends.",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "You’re... Harper? The Harper I used to climb trees with as a kid?",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "That’s me!It’s been so long! What have you been up to all these years?",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "That’s a long story.",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I’m so happy to see you! I really want to catch up.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Me too. Oh, Liam, if you don’t mind...",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Not at all. I’ve spotted my... my acquaintance too.",
+      "characterName": "Liam",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Let's go. Let's go to the hotel room and chat!",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "The two girls stand in the sea breeze, sharing their stories under the sun.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_02.webp"
+    },
+    {
+      "dialogue": "Wow! You've been through so much, but your fashion sense is still as good as ever.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "By the way, could you help me pick out a nice swimsuit?",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Of course!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Thank you! This outfit looks amazing!",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "No problem. We’re good friends after all.",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Well, as a friend, I’ve got to recommend the hotel’s famous fruit wine. It’s so good!",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Alright, let’s go try it!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Let's go!",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Watching Harper’s energetic figure, Scarlett feels a long-lost sense of relaxation.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_02.webp"
+    },
+    {
+      "dialogue": "Meanwhile, on the other side of the island...",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_01.webp"
+    },
+    {
+      "dialogue": "Where the hell is Scarlett?",
+      "characterName": "Blake",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "It took me forever to find out the Harringtons are at the auction. I have to find her!",
+      "characterName": "Blake",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Scarlett, you’re my wife. I will make sure you come back to me.",
+      "characterName": "Blake",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    }
+  ]
+}
