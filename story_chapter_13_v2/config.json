@@ -1,0 +1,224 @@
+{
+  "templateId": "lVkjJdC1",
+  "componentIds": [
+    "D0chZqnk",
+    "YvSxzmvl",
+    "ouFYfRPO",
+    "7Yred4NE",
+    "SwIckWvw",
+    "m3rxBwgw",
+    "ObOqkupN",
+    "Kl5YxRgz",
+    "x5HQHKcM",
+    "U5FJW8mA",
+    "lPn2RFOx",
+    "TFflnWD5",
+    "VqWv5NRF",
+    "1OZld4If",
+    "Z3V5uyKO",
+    "hpgBEX3Z",
+    "aAxSDSPv",
+    "ZfkaAAGY",
+    "jk7Vg8So",
+    "6vJtMils",
+    "Ip2ZuOcO",
+    "Z5aHv8g2",
+    "9YsQTOnI",
+    "HNC5743c",
+    "6r9WR3ZD",
+    "2EogEgfP",
+    "FX2IdDno",
+    "6iULeFQO",
+    "qfTfQbb4",
+    "em2FmgbI",
+    "gCYTjePO",
+    "DMqO7c2m",
+    "OENsQINT",
+    "YulsrXI4",
+    "ezqoDEdM",
+    "22Xnt87Y",
+    "FseHlzBg",
+    "dnlv6LFv",
+    "wCoSAGZu",
+    "l4UsKo90",
+    "DOIGc2HF",
+    "zSXGtq1T",
+    "bECsC6pK",
+    "kl9tyFgN",
+    "Syo8OkKM",
+    "yjKv7u9T",
+    "rRj6f76z",
+    "fFdEOmqg",
+    "K97Ul4z5",
+    "qD3JaypP",
+    "cJU1wSZJ",
+    "1lSPwrcY",
+    "cpe4gFOH",
+    "UtkYdTWu",
+    "du2FWiXK",
+    "MsvVIm1b",
+    "7dnu3bq2",
+    "icHVZlqo",
+    "fC35ERTe",
+    "4YnPD2rK",
+    "7sS7j6FK",
+    "1Q8rDiaj",
+    "6Tqtgxug",
+    "DoOqJ5Cr",
+    "8IkJANSd",
+    "Fmo8UapR",
+    "sfjZHFZM",
+    "dVY5QcQZ",
+    "q77aTShs",
+    "tkUZyWwJ",
+    "oMcOf8Ig",
+    "N1lPkF9T",
+    "aGgGsY5y",
+    "RiRMos9f",
+    "nHZSqDh8",
+    "dKjXTSeO",
+    "PVdocE8G",
+    "RPzIXDNv",
+    "ni9tHxjo",
+    "MsEP0QxZ"
+  ],
+  "front": [
+    {
+      "dialogue": "Here's to our reunion, cheers!",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Cheers!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "I want to take some cute photos with you. You should put on your swimsuit too.",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Sure!",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_01.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "You're so beautiful and sexy, I'm going to take tons of gorgeous photos of you!",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Let's go to the beach then.",
+      "characterName": "Scarlett",
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_07.webp",
+      "characterPos": 1
+    },
+    {
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 1
+    },
+    {
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_05.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Oh my god! Who are you?!",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Scarlett, I finally found you!",
+      "characterName": "Blake",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Blake! How did you know I was here?",
+      "characterName": "Scarlett",
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Because I love you! I found out that Liam isn't really your boyfriend.",
+      "characterName": "Blake",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "You're just trying to make me jealous, aren't you?",
+      "characterName": "Blake",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Jealous? What are you talking about??",
+      "characterName": "Scarlett",
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I understand everything. Scarlett, come back to me. I'll treat you right—",
+      "characterName": "Blake",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "You're that scumbag ex-husband! Stay away from Scarlett!",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "What happened between Scarlett and me is nobody's business but ours. You—！！！",
+      "characterName": "Blake",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Enough! Stop bothering me!",
+      "characterName": "Scarlett",
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    }
+  ]
+}

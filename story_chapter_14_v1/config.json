@@ -1,0 +1,258 @@
+{
+  "templateId": "lVkjJdC1",
+  "componentIds": [
+    "D0chZqnk",
+    "YvSxzmvl",
+    "ouFYfRPO",
+    "7Yred4NE",
+    "SwIckWvw",
+    "m3rxBwgw",
+    "ObOqkupN",
+    "Kl5YxRgz",
+    "x5HQHKcM",
+    "U5FJW8mA",
+    "lPn2RFOx",
+    "TFflnWD5",
+    "VqWv5NRF",
+    "1OZld4If",
+    "Z3V5uyKO",
+    "hpgBEX3Z",
+    "aAxSDSPv",
+    "ZfkaAAGY",
+    "jk7Vg8So",
+    "6vJtMils",
+    "Ip2ZuOcO",
+    "Z5aHv8g2",
+    "9YsQTOnI",
+    "HNC5743c",
+    "6r9WR3ZD",
+    "2EogEgfP",
+    "FX2IdDno",
+    "6iULeFQO",
+    "EuRtljyo",
+    "cksKhzyl",
+    "IofuQBbg",
+    "v4XS9zxN",
+    "uasiOOiv",
+    "qlHpAmh1",
+    "U2lktin9",
+    "TExP2ubb",
+    "6YwE1YmO",
+    "O1RYNJnI",
+    "3KCks5Dv",
+    "Xi0ImqzG",
+    "22vzt7Lt",
+    "np9sBG4a",
+    "m7kvnpjU",
+    "4JFWUMqC",
+    "TmeHb0Xt",
+    "1W71keJ0",
+    "lKrU5BEh",
+    "GZKrG4Fb",
+    "U3RLgH4D",
+    "J4jLyzZh",
+    "yQ7fxW04",
+    "Vi8ezNeG",
+    "7gElKqBZ",
+    "HAPXrTQh",
+    "6qpywd4R",
+    "uPem3suI",
+    "tU8jDZDQ",
+    "eT2rJHEB",
+    "oPWXo0ge",
+    "pdsU2SNe",
+    "008XH9sT",
+    "lseHH0OP",
+    "tNczWLbZ",
+    "s3SwkhCc",
+    "RGMEHYyF",
+    "AmTBnw1S",
+    "aEQKRmpL",
+    "xRbyNWC0",
+    "caAUHvqB",
+    "AQduW6nc",
+    "xApJepeQ",
+    "jF4clg8C",
+    "kNhbgagH",
+    "Eq3agHr7",
+    "o7YNjlwR",
+    "qj5tUZ36",
+    "y22syr5C",
+    "R2zL0M8Z",
+    "QDf92qPn",
+    "M0cvidu3",
+    "gR1jut5Q",
+    "17XLY2Cg",
+    "JehB08mx",
+    "ZSqZ4TnE",
+    "XECLrcmw",
+    "XaGOrhWu",
+    "sql1Giki",
+    "Cf7iu4Fw",
+    "wmalJ8u8",
+    "I9HzZikO",
+    "hmvQmYsM",
+    "y94XkkDm",
+    "PYhLVCtz",
+    "q7wEgQEp",
+    "qpMpLt7q",
+    "AKkTwMZz",
+    "wG6VRdcB",
+    "2ffsUCMS"
+  ],
+  "front": [
+    {
+      "dialogue": "You dare hit me?!",
+      "characterName": "Blake",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Haven't you figured it out yet? Of course I do!",
+      "characterName": "Scarlett",
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "If you keep bothering me, I won't hesitate to make you lose everything.",
+      "characterName": "Scarlett",
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "You!... I won't give up, I'll prove my love for you.",
+      "characterName": "Blake",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "We'll see about that.",
+      "characterName": "Scarlett",
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Pfft! Who needs him to prove anything? He's just annoying!Let's go, the auction's about to start. It'll be a good change of pace.",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Let's go, the auction's about to start. It'll be a good change of pace.",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Of course. But we need to change into something more fitting for the auction.",
+      "characterName": "Scarlett",
+      "characterImg": "result:a7m3k9q2",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "You're right.",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Hey, Scarlett, what a coincidence! My seat is right next to yours.",
+      "characterName": "Liam",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "I love this coincidence. I actually need you!",
+      "characterName": "Scarlett",
+      "characterImg": "result:r4t8n1v6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Is something going on?",
+      "characterName": "Liam",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "My ex-husband came around bothering me again. Could you play my boyfriend one more time?",
+      "characterName": "Scarlett",
+      "characterImg": "result:r4t8n1v6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Alright. I have to say, I'm more than happy to take on the role, my dear girlfriend.",
+      "characterName": "Liam",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Oh, Liam.",
+      "characterName": "Scarlett",
+      "characterImg": "result:r4t8n1v6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "As the auction begins, items are revealed, and the air is filled with champagne and perfume. The crowd's excitement grows.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_03.webp"
+    },
+    {
+      "dialogue": "The next item is a very rare pink diamond ring. The Pink Star!",
+      "characterName": "Auctioneer",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_03.webp"
+    },
+    {
+      "dialogue": "Oh, it's beautiful. I'm going to try to bid on it.",
+      "characterName": "Scarlett",
+      "characterImg": "result:r4t8n1v6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Scarlett, you want it? I'll get it for you.",
+      "characterName": "Blake",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "In that case, as Scarlett's boyfriend, I've got to join the bidding. I can't let another guy ruin her mood.",
+      "characterName": "Liam",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Hah, you? Yeah, right.Even if you sold your little company, you still couldn't afford anything here!",
+      "characterName": "Blake",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    }
+  ]
+}

@@ -116,6 +116,8 @@ compress_png_file() {
     fi
 }
 
+WEBP_MIN_SAVED_BYTES=1024
+
 compress_webp_file() {
     local file=$1
 
@@ -128,16 +130,21 @@ compress_webp_file() {
     if cwebp -q 80 -m 6 -mt "$file" -o "$temp_file" 2>/dev/null; then
         local new_size
         new_size=$(stat -f%z "$temp_file" 2>/dev/null)
-        if [ -n "$new_size" ] && [ "$new_size" -lt "$original_size" ]; then
-            mv "$temp_file" "$file"
-            local saved=$((original_size - new_size))
-            TOTAL_SAVED=$((TOTAL_SAVED + saved))
-            TOTAL_WEBP=$((TOTAL_WEBP + 1))
-            echo "  [ok] WebP: $file $(format_size "$original_size") -> $(format_size "$new_size")"
-        else
+        if [ -z "$new_size" ] || [ "$new_size" -ge "$original_size" ]; then
             rm -f "$temp_file"
             echo "  [--] WebP not smaller: $file"
+            return
         fi
+        local saved=$((original_size - new_size))
+        if [ "$saved" -lt "$WEBP_MIN_SAVED_BYTES" ]; then
+            rm -f "$temp_file"
+            echo "  [skip] WebP saved <1KB ($(format_size "$saved")): $file"
+            return
+        fi
+        mv "$temp_file" "$file"
+        TOTAL_SAVED=$((TOTAL_SAVED + saved))
+        TOTAL_WEBP=$((TOTAL_WEBP + 1))
+        echo "  [ok] WebP: $file $(format_size "$original_size") -> $(format_size "$new_size")"
     else
         rm -f "$temp_file"
     fi
