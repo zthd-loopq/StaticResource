@@ -1,9 +1,11 @@
 ---
 name: story-resource-upgrade
-description: One-click upgrade workflow for story chapters: validate content/config/resources/componentIds(template with base ids), run fixed image pipeline (compress_images.sh png -> png_to_webp.sh), and bump chapter folder versions only when config or image outputs changed.
+description: "[DEPRECATED] Legacy batch upgrade tool that takes content (6-col TSV) + storyline JSON inputs to bump chapter folder versions. For new chapter creation use story-chapter-create instead."
 ---
 
-# Story Resource Upgrade
+# Story Resource Upgrade (DEPRECATED)
+
+> **DEPRECATED**: this skill is preserved for historical batch upgrades that take legacy `content` files plus `storyline.json` as input. **For new chapter creation, use `story-chapter-create` (scaffold + build) which works with `dialog.txt + setting.json + meta.json` directly.** The `parse_content` and `collect_local_image_refs` helpers in `scripts/upgrade_resources.py` are still imported by the new skill.
 
 Use this skill when user asks to batch upgrade added chapters in this repo and requires strict stop-on-missing checks.
 
@@ -16,9 +18,8 @@ Use this skill when user asks to batch upgrade added chapters in this repo and r
 - Stop immediately if any required resource is missing.
 - `componentIds` are always built as `baseCptIds + chapterIds` (dedupe, keep order).
 - `templateId` always follows the storyline `tid` for that chapter.
-- Image pipeline order is fixed and isolated in staging:
-  1. `compress_images.sh png`
-  2. `png_to_webp.sh`
+- Image pipeline isolated in staging:
+  - `png_compress_convert_webp.sh <dir>` — pngquant + cwebp 合并一步，递归处理
 - Folder version bumps (`vN -> vN+1`) happen only when staged output differs from current version in config or images.
 
 ## Command

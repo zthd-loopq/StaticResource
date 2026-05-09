@@ -1,0 +1,286 @@
+{
+  "templateId": "lVkjJdC1",
+  "componentIds": [
+    "D0chZqnk",
+    "YvSxzmvl",
+    "ouFYfRPO",
+    "7Yred4NE",
+    "SwIckWvw",
+    "m3rxBwgw",
+    "ObOqkupN",
+    "Kl5YxRgz",
+    "x5HQHKcM",
+    "U5FJW8mA",
+    "lPn2RFOx",
+    "TFflnWD5",
+    "VqWv5NRF",
+    "1OZld4If",
+    "Z3V5uyKO",
+    "hpgBEX3Z",
+    "aAxSDSPv",
+    "ZfkaAAGY",
+    "jk7Vg8So",
+    "6vJtMils",
+    "Ip2ZuOcO",
+    "Z5aHv8g2",
+    "9YsQTOnI",
+    "HNC5743c",
+    "6r9WR3ZD",
+    "2EogEgfP",
+    "FX2IdDno",
+    "6iULeFQO",
+    "8AmK1llS",
+    "c2Y3tKs3",
+    "iXGmf3fJ",
+    "CvZEMRGQ",
+    "K75d2nJB",
+    "0i7przWT",
+    "TExP2ubb",
+    "Ea0yZfF0",
+    "FpTThPUk",
+    "iLPlFBv6",
+    "JTN5xa9I",
+    "sc2GqoQq",
+    "pnaOa0ur",
+    "OyYALX6g",
+    "sPfRTl0Y",
+    "YccaxPHo",
+    "4lt25Yb7",
+    "XFqoj7P8",
+    "qpMpLt7q",
+    "x4MO489i",
+    "rYguDa01",
+    "el2WTzK9",
+    "DtbuX4OJ",
+    "4JFWUMqC",
+    "jSHTDSUL",
+    "aexpddYh",
+    "lZFG0bBd",
+    "TmeHb0Xt",
+    "BhuCs2y3",
+    "wQYnTp34",
+    "S9v2MulL",
+    "BrlCtpFk",
+    "alKhUjYv",
+    "aBhgT9Ql",
+    "7F248dXZ",
+    "BVAOTOLV",
+    "owifYk5G",
+    "qijFeyoS",
+    "9qxNeNwe",
+    "7fzo2UW6",
+    "AKkTwMZz",
+    "wG6VRdcB",
+    "iZ2IDhpH",
+    "Yhbyiq6l",
+    "xApJepeQ",
+    "jF4clg8C",
+    "uzvx57h4",
+    "h5lJSzun",
+    "RPzIXDNv",
+    "9R09PGf3",
+    "TFe8FqH3",
+    "1hlLDNpO",
+    "QJLh19y5",
+    "M0cvidu3",
+    "7pyXG2yj",
+    "O1pCmnqJ",
+    "CUUZMDvI",
+    "gDMNMuMy",
+    "9P5bQ8KS",
+    "2ffsUCMS",
+    "EDJo5Cdk",
+    "PBpldtZG",
+    "C8SliTBV",
+    "XytsvmY6",
+    "MRZMyR18",
+    "NVzmKuBv",
+    "X8C2swLP",
+    "MAynYCvz",
+    "jBqwMY1j",
+    "htB0hPtE",
+    "sRFt4fCA",
+    "4WZspIFO",
+    "0FM8FIaj",
+    "vsVeiiZE"
+  ],
+  "front": [
+    {
+      "dialogue": "Scarlett, just wait, Liam will never win the Pink Star.He's just a pretty boy who's after your money!",
+      "characterName": "Blake",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "You’re the one after the Harrington family’s money!Liam, don’t pay attention to him.",
+      "characterName": "Scarlett",
+      "characterImg": "result:r4t8n1v6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "It’s fine. I bid 5 million.",
+      "characterName": "Liam",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "You're an idiot. I bid 6 million!",
+      "characterName": "Blake",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "8 million.",
+      "characterName": "Liam",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "What? No way! I don't have that much liquidity!",
+      "characterName": "Blake",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Oh, what an intense competition! Any other guests want to raise the bid?",
+      "characterName": "Auctioneer",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "8 million, going once, going twice... Sold!",
+      "characterName": "Auctioneer",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "The Pink Star is for you, my girlfriend.",
+      "characterName": "Liam",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Liam, who are you exactly?",
+      "characterName": "Scarlett",
+      "characterImg": "result:r4t8n1v6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I was just about to tell you, actually, I’m—",
+      "characterName": "Liam",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Liam! The auction was amazing, but the next event is an even better rock party!",
+      "characterName": "Scarlett",
+      "characterImg": "result:r4t8n1v6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Oh! about what you were saying...",
+      "characterName": "Scarlett",
+      "characterImg": "result:r4t8n1v6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "It’s okay, we’ll talk at the party. I’ll tell you then.",
+      "characterName": "Liam",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Let's change and hit the dance floor!",
+      "characterName": "Scarlett",
+      "characterImg": "result:r4t8n1v6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "The music blared, young bodies moved to the rhythm, and the colorful lights heated up the mood.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Liam! I’m over here!",
+      "characterName": "Scarlett",
+      "characterImg": "result:tjptce2j",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Scarlett! I need to tell you, I'm actually the heir to the Walton family.",
+      "characterName": "Liam",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "What? The Walton family, the century-old super-rich one?",
+      "characterName": "Scarlett",
+      "characterImg": "result:tjptce2j",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Yes! Because of my family's rules, I had to keep my identity hidden until I take over.",
+      "characterName": "Liam",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Wow, that's cool! I mean, it just gives us another thing in common!",
+      "characterName": "Scarlett",
+      "characterImg": "result:tjptce2j",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "You're right! I told you who I really am because I didn’t want to lie to you. It’s because I like you...",
+      "characterName": "Liam",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "What? It’s too loud in here! I can’t hear you!",
+      "characterName": "Scarlett",
+      "characterImg": "result:tjptce2j",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I’m telling you, I love you! Will you give me a chance to win you over?",
+      "characterName": "Liam",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "What?!",
+      "characterName": "Scarlett",
+      "characterImg": "result:tjptce2j",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    }
+  ]
+}

@@ -377,7 +377,6 @@ def plan_chapter(
     story_map: Dict[int, dict],
     stage_root: Path,
     compress_script: Path,
-    png_to_webp_script: Path,
 ) -> ChapterPlan:
     if chapter not in story_map:
         raise UpgradeError(f"chapter_{chapter}: not found in storyline inputs")
@@ -423,9 +422,8 @@ def plan_chapter(
     copy_source_images(source_dir, stage_images)
     write_json(stage_dir / "config.json", expected)
 
-    # Fixed order: compress_images.sh png -> png_to_webp.sh
-    run_cmd([str(compress_script), "png", stage_dir.name], cwd=stage_root)
-    run_cmd([str(png_to_webp_script)], cwd=stage_root)
+    # png_compress_convert_webp.sh: pngquant + cwebp 合并一步，递归处理目录
+    run_cmd([str(compress_script), str(stage_images)], cwd=stage_root)
 
     # Validate staged required images exist after conversion.
     staged_names = set(p.name for p in stage_images.iterdir() if p.is_file())
@@ -493,12 +491,9 @@ def main():
     if not images_root.exists():
         raise UpgradeError(f"images root not found: {images_root}")
 
-    compress_script = repo_root / "compress_images.sh"
-    png_to_webp_script = repo_root / "png_to_webp.sh"
+    compress_script = repo_root / "png_compress_convert_webp.sh"
     if not compress_script.exists():
         raise UpgradeError(f"missing script: {compress_script}")
-    if not png_to_webp_script.exists():
-        raise UpgradeError(f"missing script: {png_to_webp_script}")
 
     chapters = parse_chapters(args.chapters)
     story_map = load_storyline_mapping(storyline_paths, set(chapters))
@@ -524,7 +519,6 @@ def main():
                 story_map=story_map,
                 stage_root=stage_root,
                 compress_script=compress_script,
-                png_to_webp_script=png_to_webp_script,
             )
             changed = plan.config_changed or plan.image_changed
             print(
