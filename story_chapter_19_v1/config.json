@@ -1,0 +1,270 @@
+{
+  "templateId": "lVkjJdC1",
+  "componentIds": [
+    "MpsT40RF",
+    "l1D5J1wZ",
+    "Id4kJRDJ",
+    "96uzbAGk",
+    "Wcz1V0Gv",
+    "x5HQHKcM",
+    "U5FJW8mA",
+    "lPn2RFOx",
+    "wjlc7JZG",
+    "1OZld4If",
+    "2LWiIZpQ",
+    "aAxSDSPv",
+    "RsSzyE7E",
+    "jk7Vg8So",
+    "hpgBEX3Z",
+    "Z3V5uyKO",
+    "OUeGnjPY",
+    "6r9WR3ZD",
+    "LkwFPQ1y",
+    "hGPFxg7f",
+    "M6H9jHOs",
+    "Zj5e6vod",
+    "GWX5u6NL",
+    "LFes9Tz3",
+    "6vJtMils",
+    "UXuOvL0T",
+    "Ip2ZuOcO",
+    "Z5aHv8g2",
+    "e1woBSto",
+    "9YsQTOnI",
+    "HNC5743c",
+    "tpTOdWQV",
+    "FX2IdDno",
+    "2EogEgfP",
+    "TFflnWD5",
+    "qlHpAmh1",
+    "7NasGwqZ",
+    "kNuOI7Fx",
+    "iXGmf3fJ",
+    "U2lktin9",
+    "6YwE1YmO",
+    "6A76lZyH",
+    "5d8A9DPD",
+    "aA2sc3Jd",
+    "LholceAe",
+    "pnaOa0ur",
+    "JTN5xa9I",
+    "OyYALX6g",
+    "sPfRTl0Y",
+    "HU10UfCv",
+    "egrXHK91",
+    "jL7NJv5I",
+    "sHEUBKmU",
+    "Db3p41s0",
+    "TmeHb0Xt",
+    "4JFWUMqC",
+    "JVHAftJo",
+    "aBhgT9Ql",
+    "yQ7fxW04",
+    "7gElKqBZ",
+    "9R8Diml0",
+    "NSxwYGgp",
+    "0FbJbOlK",
+    "bJHIGM6k",
+    "wG6VRdcB",
+    "tU8jDZDQ",
+    "owifYk5G",
+    "eT2rJHEB",
+    "vsVeiiZE",
+    "yaSoI0tT",
+    "Y4ClGCxX",
+    "xFLKSQvu",
+    "oPWXo0ge",
+    "pdsU2SNe",
+    "i3q22vkB",
+    "caAUHvqB",
+    "xApJepeQ",
+    "jF4clg8C",
+    "3l1xJS8I",
+    "oBso3nRI",
+    "pO7UnSJY",
+    "XyVq2IyE",
+    "TsMc5fOW",
+    "4YnPD2rK",
+    "cMakwbBf",
+    "xecTPRaZ",
+    "nYcKuYU0",
+    "6Tqtgxug",
+    "BG8RHeun",
+    "kNhbgagH",
+    "qj5tUZ36",
+    "R2zL0M8Z",
+    "FwUlCUWD",
+    "2ffsUCMS",
+    "gR1jut5Q",
+    "SMH0JdcC",
+    "1KSFt566",
+    "zLe0MDuU",
+    "yNgsdyv4",
+    "svFKqGYx",
+    "sql1Giki",
+    "wmalJ8u8",
+    "Cf7iu4Fw",
+    "XECLrcmw",
+    "I9HzZikO",
+    "MAynYCvz",
+    "68X1MeDo",
+    "y94XkkDm",
+    "PYhLVCtz",
+    "jBqwMY1j",
+    "hmvQmYsM",
+    "fUepiyet",
+    "mlxoQdvg"
+  ],
+  "front": [
+    {
+      "dialogue": "Who are you texting? Your new boyfriend?",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "I'll tell you...in due time.",
+      "characterName": "Scarlett",
+      "characterImg": "result:9pm2buz8",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Ooh, so secretive! Fine...Speaking of secrets - the Walton heir is finally revealing himself. Rumor says he'll announce his fiancée too!",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "!!Could Liam be proposing? This must be his surprise...Better play dumb. I wouldn't want to ruin the moment.",
+      "characterName": "Scarlett",
+      "characterImg": "result:9pm2buz8",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "The next day...",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_02.webp"
+    },
+    {
+      "dialogue": "The Walton family is hosting their heir's debutante ball today.This is important for our family. I expect everyone to be on their best behavior.",
+      "characterName": "Mr. Harrington",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Darling, Chloe and I will be perfect. We just need to worry about Scarlett embarrassing us.",
+      "characterName": "Vivian",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "...Not today, Vivian. Today's about Liam's proposal.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I should go change into something worthy of a gala.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_03.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Today's the day Liam reveals himself. Where is he?",
+      "characterName": "Scarlett",
+      "characterImg": "result:j68cg0w0",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Mr. and Mrs. Harrington, what a pleasure.",
+      "characterName": "Mrs. Walton",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Mrs. Walton, we're honored. I believe everything is prepared?",
+      "characterName": "Vivian",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Indeed. Though...why is your trashy stepdaughter here?",
+      "characterName": "Mrs. Walton",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Pay her no mind, she's quite harmless.",
+      "characterName": "Vivian",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Then let the gala commence!",
+      "characterName": "Mrs. Walton",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "[{'text': 'Welcome distinguished guests to the Walton family gala.Tonight, we proudly reveal the next heir to Walton ', 'type': 'text'}, {'cellPosition': None, 'link': 'http://Enterprises.My', 'text': 'Enterprises.My', 'type': 'url'}, {'text': ' son - Liam Walton!', 'type': 'text'}]",
+      "characterName": "Mrs. Walton",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Thank you all for coming. Your continued support means everything to our family.",
+      "characterName": "Liam",
+      "characterImg": "character_05.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "At the same time, I'd like to introduce my son's fiancée to everyone. Mr. Harrington's daughter—",
+      "characterName": "Mrs. Walton",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Oh Liam...this is how you planned to surprise me?",
+      "characterName": "Scarlett",
+      "characterImg": "result:j68cg0w0",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Miss Chloe!",
+      "characterName": "Mrs. Walton",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "WHAT?!",
+      "characterName": "Liam&Scarlett",
+      "characterImg": "result:j68cg0w0",
+      "backgroundImg": "bg_04.webp",
+      "characterPos": 2
+    }
+  ]
+}

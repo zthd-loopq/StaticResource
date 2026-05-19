@@ -1,0 +1,229 @@
+{
+  "templateId": "pExByNuD",
+  "componentIds": [
+    "XGNDpjNs",
+    "uFDZ1NNL",
+    "dWn6Cn16",
+    "4Mfne97t",
+    "spe37mCD",
+    "3uVFarMj",
+    "RM8UcXi0",
+    "d0mAwaH1",
+    "7IDfJns9",
+    "sgjibSdU",
+    "A9kqVL0U",
+    "KiXhjYLA",
+    "jJPoEzdU",
+    "Z3qJDVZy",
+    "E7RDAIeG",
+    "XC8nqFh1",
+    "WvRWO5ao",
+    "yON7NdpY",
+    "RXQ1SRl6",
+    "LjBBTpei",
+    "88VjUOFF"
+  ],
+  "front": [
+    {
+      "dialogue": "Anna, forget about my love life for now. You should be focusing on your upcoming match.",
+      "characterName": "Daniel",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "What's the point? I'll never make it as a pro anyway.",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Your tennis skills are amazing! I think you've got real potential.",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "But I'm just an orphanage kid... No money for proper training, can't afford to travel for tournaments.",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Daniel lets us use his court for free, but I can't keep relying on him forever.",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Anna, you can definitely become a great tennis player. Trust me - I am a world champ, remember?",
+      "characterName": "Daniel",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I do... but...",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Honey, you're a total genius - even Daniel says so! All you need is one real chance. My company can sponsor you.",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I can also talk to UrbanFlex again—get them to back more kids like you.",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Wait...oh Anna, you're my lucky charm! You just saved my business proposal!",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "What? I don't really understand.",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Sorry, my mind is suddenly racing with plans. The point is, I will help make your dream come true.",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I believe you. After all, you're Daniel's girlfriend.",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "I'm not... never mind that! First, let's find you something adorable to wear - we've got a big meeting!",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Okay!",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "So pretty! I love this dress so much!",
+      "characterName": "Anna",
+      "characterImg": "result:8oitexr7",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Soon you'll be able to buy yourself even more beautiful dresses.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Thank you, Scarlett. So...who are we meeting?",
+      "characterName": "Anna",
+      "characterImg": "result:8oitexr7",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "A sports brand director who'd be thrilled to sponsor a future star like you.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Hold on, Scarlett. I appreciate your help for Anna, but I won't let you exploit these kids for profit.",
+      "characterName": "Daniel",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Relax, Daniel. With me involved, no child will get hurt - I promise.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Or...why don't you come meet the director with us?",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "...Fine. I'll come.",
+      "characterName": "Daniel",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Mr. Gordon, I've brought a new partnership proposal you won't want to miss.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Like I said last time - we're done. We already signed with—",
+      "characterName": "Mr. Gordon",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Mr. Gordon? You're the one Scarlett was working with?",
+      "characterName": "Daniel",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Daniel! What are you doing with her?",
+      "characterName": "Mr. Gordon",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Wait...you know each other? Mr. Gordon, did you break our contract because of Daniel?!",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    }
+  ]
+}

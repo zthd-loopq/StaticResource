@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Validate a filled chapter workspace, build config + webp + zip, update global index."""
 import argparse
-import csv
 import json
 import re
 import secrets
@@ -13,17 +12,22 @@ from typing import List, Set, Tuple
 
 SCRIPT_PATH = Path(__file__).resolve()
 REPO_ROOT = SCRIPT_PATH.parents[4]
-GLOBAL_CONFIG = REPO_ROOT / "story_chapter_config.json"
 COMPRESS_SH = REPO_ROOT / "png_compress_convert_webp.sh"
 
 sys.path.insert(0, str(REPO_ROOT / ".claude" / "skills" / "story-resource-upgrade" / "scripts"))
-from upgrade_resources import parse_content, collect_local_image_refs, UpgradeError  # noqa: E402
+from upgrade_resources import parse_rows, collect_local_image_refs, UpgradeError  # noqa: E402
 
 DEFAULT_RESOURCE_URL_TEMPLATE = "https://github.com/zthd-loopq/StaticResource/raw/refs/heads/master/{folder}.zip"
+GLOBAL_DOC_URL = "https://stickerstyle.feishu.cn/wiki/A3n2wf4nai2WYkkSQn8c3hscnQg"
 ID_LEN = 8
 ID_RETRIES = 32
 DIR_PATTERN = re.compile(r"^story_chapter_(\d+)_v(\d+)$")
 RESULT_PLACEHOLDER = re.compile(r"^result:(\d+)$")
+SPREADSHEET_RE = re.compile(r"/sheets/([A-Za-z0-9]+)")
+SHEET_ID_RE = re.compile(r"[?&]sheet=([A-Za-z0-9]+)")
+DIALOG_HEADERS_REQUIRED = ("对话", "人物", "人物图", "背景", "位置")
+DIALOG_OUTPUT_ORDER = ("对话", "人物", "人物图", "背景", "位置", "装饰")
+JSON_BLOCK_RE = re.compile(r"(```JSON\n)(.*?)(\n```)", re.DOTALL)
 
 
 class BuildError(Exception):
@@ -81,12 +85,12 @@ def run_cmd(cmd: List[str], cwd: Path):
         raise BuildError(f"command failed: {' '.join(cmd)}\n{proc.stdout}")
 
 
-def build_chapter_entry(chapter_id: str, meta: dict, folder_name: str, resource_url_template: str) -> dict:
+def build_chapter_entry(chapter_id: str, chapter_cfg: dict, folder_name: str, resource_url_template: str) -> dict:
     return {
         "id": chapter_id,
-        "name": meta["name"],
-        "coverUrl": meta["coverUrl"],
-        "unlockCoverUrl": meta["unlockCoverUrl"],
+        "name": chapter_cfg["name"],
+        "coverUrl": chapter_cfg["coverUrl"],
+        "unlockCoverUrl": chapter_cfg["unlockCoverUrl"],
         "resourceUrl": resource_url_template.format(folder=folder_name),
     }
 
@@ -102,6 +106,188 @@ def write_json(path: Path, obj: dict):
     with path.open("w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
         f.write("\n")
+
+
+def parse_dialog_url(url: str) -> Tuple[str, str]:
+    if not url:
+        raise BuildError("chapter.json: dialogSheetUrl is empty")
+    m1 = SPREADSHEET_RE.search(url)
+    if not m1:
+        raise BuildError(f"chapter.json: dialogSheetUrl 无法解析出 spreadsheet token: {url}")
+    m2 = SHEET_ID_RE.search(url)
+    if not m2:
+        raise BuildError(f"chapter.json: dialogSheetUrl 必须包含 ?sheet=<sheet_id> 参数: {url}")
+    return m1.group(1), m2.group(1)
+
+
+def fetch_dialog_sheet(url: str, sheet_id: str) -> List[List[str]]:
+    cmd = [
+        "lark-cli", "sheets", "+read",
+        "--url", url,
+        "--range", f"{sheet_id}!A:F",
+        "--as", "user",
+    ]
+    try:
+        proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    except FileNotFoundError:
+        raise BuildError("未找到 lark-cli 命令，请先安装并 PATH 中可执行")
+
+    out = proc.stdout or ""
+    if proc.returncode != 0 and not out.strip():
+        err = proc.stderr or ""
+        raise BuildError(f"lark-cli sheets +read 失败 (exit {proc.returncode}):\n{err}")
+
+    try:
+        payload = json.loads(out)
+    except json.JSONDecodeError as e:
+        raise BuildError(f"lark-cli 输出非 JSON: {e}\n{out[:500]}")
+
+    if not payload.get("ok"):
+        err = payload.get("error") or {}
+        msg = err.get("message") or "unknown error"
+        hint = err.get("hint")
+        console_url = err.get("console_url")
+        parts = [f"lark-cli sheets +read 失败: {msg}"]
+        if hint:
+            parts.append(f"hint: {hint}")
+        if console_url:
+            parts.append(f"console_url: {console_url}")
+        raise BuildError("\n".join(parts))
+
+    values = ((payload.get("data") or {}).get("valueRange") or {}).get("values")
+    if not values:
+        raise BuildError(f"sheet {sheet_id} 没有数据（valueRange.values 为空）")
+    return values
+
+
+def normalize_cell(v) -> str:
+    if v is None:
+        return ""
+    return str(v).strip()
+
+
+def _run_lark_cli(cmd: List[str], stdin: str = None) -> dict:
+    try:
+        proc = subprocess.run(
+            cmd,
+            input=stdin,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+    except FileNotFoundError:
+        raise BuildError("未找到 lark-cli 命令，请先安装并 PATH 中可执行")
+    out = proc.stdout or ""
+    if proc.returncode != 0 and not out.strip():
+        err = proc.stderr or ""
+        raise BuildError(f"lark-cli 失败 (exit {proc.returncode}): {' '.join(cmd)}\n{err}")
+    try:
+        payload = json.loads(out)
+    except json.JSONDecodeError as e:
+        raise BuildError(f"lark-cli 输出非 JSON: {e}\n{out[:500]}")
+    if not payload.get("ok"):
+        err = payload.get("error") or {}
+        msg = err.get("message") or "unknown error"
+        hint = err.get("hint")
+        console_url = err.get("console_url")
+        parts = [f"lark-cli 失败: {msg}", f"cmd: {' '.join(cmd)}"]
+        if hint:
+            parts.append(f"hint: {hint}")
+        if console_url:
+            parts.append(f"console_url: {console_url}")
+        raise BuildError("\n".join(parts))
+    return payload
+
+
+def fetch_global_doc() -> Tuple[str, dict]:
+    print(f"→ 拉取全局索引: {GLOBAL_DOC_URL}")
+    payload = _run_lark_cli([
+        "lark-cli", "docs", "+fetch",
+        "--api-version", "v2",
+        "--doc", GLOBAL_DOC_URL,
+        "--doc-format", "markdown",
+        "--as", "user",
+    ])
+    content = (((payload.get("data") or {}).get("document") or {})).get("content")
+    if not isinstance(content, str) or not content:
+        raise BuildError("global doc fetch: data.document.content 缺失")
+    m = JSON_BLOCK_RE.search(content)
+    if not m:
+        raise BuildError("global doc fetch: 未找到 ```JSON``` 代码块")
+    try:
+        index = json.loads(m.group(2))
+    except json.JSONDecodeError as e:
+        raise BuildError(f"global doc fetch: JSON 块解析失败: {e}")
+    if not isinstance(index.get("chapters"), list):
+        raise BuildError("global doc fetch: chapters 字段不是 list")
+    return content, index
+
+
+def write_global_doc(original_md: str, new_index: dict) -> None:
+    new_json = json.dumps(new_index, ensure_ascii=False, indent=2)
+    new_md, n = JSON_BLOCK_RE.subn(
+        lambda mm: mm.group(1) + new_json + mm.group(3),
+        original_md,
+        count=1,
+    )
+    if n != 1:
+        raise BuildError("write_global_doc: JSON 代码块替换失败")
+    print("→ 写回全局索引（飞书 docx overwrite）")
+    _run_lark_cli(
+        [
+            "lark-cli", "docs", "+update",
+            "--api-version", "v2",
+            "--doc", GLOBAL_DOC_URL,
+            "--command", "overwrite",
+            "--content", "-",
+            "--doc-format", "markdown",
+            "--as", "user",
+        ],
+        stdin=new_md,
+    )
+
+
+def print_diff(old_index: dict, new_index: dict, current_chapter_no: int) -> None:
+    print("--- diff ---")
+    old_chs = old_index.get("chapters") or []
+    new_chs = new_index.get("chapters") or []
+    idx = current_chapter_no - 1
+    if idx < len(old_chs):
+        print(f"  chapters[{idx}] (rebuild) ← {new_chs[idx].get('name')}")
+        for k in ("id", "name", "coverUrl", "unlockCoverUrl", "resourceUrl"):
+            ov, nv = old_chs[idx].get(k), new_chs[idx].get(k)
+            if ov != nv:
+                print(f"    {k}: {ov!r} → {nv!r}")
+    else:
+        print(f"  chapters[{idx}] (new) ← {new_chs[idx].get('name')} id={new_chs[idx].get('id')}")
+    old_lim = old_index.get("limitChapterId")
+    new_lim = new_index.get("limitChapterId")
+    if old_lim != new_lim:
+        print(f"  limitChapterId: {old_lim} → {new_lim}")
+    print()
+    print("--- new global index (will write back) ---")
+    print(json.dumps(new_index, ensure_ascii=False, indent=2))
+
+
+def canonicalize_sheet_rows(raw_rows: List[List]) -> List[List[str]]:
+    header = [normalize_cell(c) for c in raw_rows[0]]
+    for name in DIALOG_HEADERS_REQUIRED:
+        if name not in header:
+            raise BuildError(f"sheet header 缺列: {name}（实际 header: {header}）")
+
+    indices = [header.index(name) if name in header else -1 for name in DIALOG_OUTPUT_ORDER]
+
+    out: List[List[str]] = [list(DIALOG_OUTPUT_ORDER)]
+    for row in raw_rows[1:]:
+        cells = []
+        for i in indices:
+            if i == -1:
+                cells.append("")
+            else:
+                v = row[i] if i < len(row) else ""
+                cells.append(normalize_cell(v))
+        out.append(cells)
+    return out
 
 
 def build(chapter_folder: str, dry_run: bool, resource_url_template: str):
@@ -126,72 +312,48 @@ def build(chapter_folder: str, dry_run: bool, resource_url_template: str):
     if not image_files:
         raise BuildError("images/ has no png or webp files")
 
-    # Check 4: dialog.txt exists
-    dialog_path = chapter_dir / "dialog.txt"
-    if not dialog_path.exists():
-        raise BuildError("dialog.txt missing")
+    # Check 4: chapter.json exists + valid JSON
+    chapter_json_path = chapter_dir / "chapter.json"
+    if not chapter_json_path.exists():
+        raise BuildError("chapter.json missing")
+    chapter_cfg = load_json(chapter_json_path, "chapter.json")
 
-    # Check 5: dialog.txt has data rows beyond header
-    with dialog_path.open("r", encoding="utf-8", newline="") as f:
-        rows = list(csv.reader(f, delimiter="\t", quotechar='"'))
-    data_rows_nonempty = [r for r in rows[1:] if any(c.strip() for c in r)]
-    if not data_rows_nonempty:
-        raise BuildError("dialog.txt has no data rows (still template?)")
-
-    # Check 6: setting.json exists and is valid JSON
-    setting_path = chapter_dir / "setting.json"
-    if not setting_path.exists():
-        raise BuildError("setting.json missing")
-    setting = load_json(setting_path, "setting.json")
-
-    # Check 7: setting.json.templateId non-empty
-    template_id = setting.get("templateId")
-    if not isinstance(template_id, str) or not template_id:
-        raise BuildError("setting.json: templateId is empty")
-
-    # Check 8: setting.json.componentIds is non-empty array
-    component_ids = setting.get("componentIds")
+    # Check 5: chapter.json field validation
+    for k in ("name", "coverUrl", "unlockCoverUrl", "dialogSheetUrl", "templateId"):
+        v = chapter_cfg.get(k)
+        if not isinstance(v, str) or not v:
+            raise BuildError(f"chapter.json: {k} is empty")
+    component_ids = chapter_cfg.get("componentIds")
     if not isinstance(component_ids, list) or not component_ids:
-        raise BuildError("setting.json: componentIds is empty")
+        raise BuildError("chapter.json: componentIds is empty")
 
-    # Check 9: meta.json exists and is valid JSON
-    meta_path = chapter_dir / "meta.json"
-    if not meta_path.exists():
-        raise BuildError("meta.json missing")
-    meta = load_json(meta_path, "meta.json")
+    template_id = chapter_cfg["templateId"]
+    dialog_url = chapter_cfg["dialogSheetUrl"]
 
-    # Check 11: global index exists
-    if not GLOBAL_CONFIG.exists():
-        raise BuildError(f"global index not found: {GLOBAL_CONFIG.name}")
-    global_index = load_json(GLOBAL_CONFIG, GLOBAL_CONFIG.name)
-    chapters = global_index.get("chapters")
-    if not isinstance(chapters, list):
-        raise BuildError(f"{GLOBAL_CONFIG.name}: chapters is not a list")
+    # Check 6: parse dialogSheetUrl
+    _, sheet_id = parse_dialog_url(dialog_url)
 
-    # Check 12: chapter number gap
+    # Check 7: global index fetched from Feishu wiki docx
+    md_text, global_index = fetch_global_doc()
+    chapters = global_index["chapters"]
+
+    # Check 8: chapter number gap
     if chapter_no > len(chapters) + 1:
         raise BuildError(f"chapter number gap: N={chapter_no} but global has only {len(chapters)}")
 
-    # Check 10: meta.json fields non-empty (only required for new chapters)
     is_new_chapter = chapter_no == len(chapters) + 1
-    if is_new_chapter:
-        for k in ("name", "coverUrl", "unlockCoverUrl"):
-            v = meta.get(k)
-            if not isinstance(v, str) or not v:
-                raise BuildError(f"meta.json: {k} is empty")
-    else:
-        # Re-build of an existing chapter: still require meta to be filled
-        # (intermediate files would have been deleted on prior success).
-        for k in ("name", "coverUrl", "unlockCoverUrl"):
-            v = meta.get(k)
-            if not isinstance(v, str) or not v:
-                raise BuildError(f"meta.json: {k} is empty")
 
-    # Parse dialog.txt -> front/result/behind
+    # Fetch dialog rows from Feishu sheet
+    print(f"→ 拉取对话 sheet: {sheet_id}")
+    raw_rows = fetch_dialog_sheet(dialog_url, sheet_id)
+    canonical_rows = canonicalize_sheet_rows(raw_rows)
+    print(f"  拉到 {len(raw_rows)} 行，规范化后 {len(canonical_rows)} 行（含 header）")
+
+    # Parse rows -> front/result/behind
     try:
-        front, result, behind = parse_content(dialog_path)
+        front, result, behind = parse_rows(canonical_rows, f"sheet:{sheet_id}")
     except UpgradeError as e:
-        raise BuildError(f"dialog.txt parse failed: {e}")
+        raise BuildError(f"dialog 解析失败: {e}")
     parsed_config = {
         "templateId": template_id,
         "componentIds": component_ids,
@@ -200,13 +362,13 @@ def build(chapter_folder: str, dry_run: bool, resource_url_template: str):
         "behind": behind,
     }
 
-    # Check 13: result:M references valid
+    # Check 9: result:M references valid
     referenced_ms = collect_result_chapter_numbers(parsed_config)
     for n in referenced_ms:
         if n == chapter_no:
             continue
         if n < 1 or n > len(chapters):
-            raise BuildError(f"dialog.txt: result:{n} references missing chapter (only {len(chapters)} chapters in global index)")
+            raise BuildError(f"sheet: result:{n} references missing chapter (only {len(chapters)} chapters in global index)")
 
     # Pipeline step 1: id prep
     if chapter_no <= len(chapters):
@@ -221,7 +383,7 @@ def build(chapter_folder: str, dry_run: bool, resource_url_template: str):
     # Pipeline step 2: replace result:M with concrete ids
     replace_result_placeholders(parsed_config, chapters, chapter_no, chapter_id)
 
-    # Check 14: image refs all present
+    # Check 10: image refs all present
     refs = collect_local_image_refs(parsed_config)
     image_names = {p.name for p in image_files}
     missing_refs = []
@@ -239,7 +401,16 @@ def build(chapter_folder: str, dry_run: bool, resource_url_template: str):
             preview += f" ... (+{len(missing_refs) - 5})"
         raise BuildError(f"missing image: {preview}")
 
-    new_entry = build_chapter_entry(chapter_id, meta, folder_name, resource_url_template)
+    new_entry = build_chapter_entry(chapter_id, chapter_cfg, folder_name, resource_url_template)
+
+    # Prepare new global_index in memory (used by both dry-run preview and real write)
+    old_index_snapshot = json.loads(json.dumps(global_index))
+    if chapter_no <= len(chapters):
+        chapters[chapter_no - 1] = new_entry
+    else:
+        chapters.append(new_entry)
+    if chapter_cfg.get("limitCurrent"):
+        global_index["limitChapterId"] = chapter_id
 
     if dry_run:
         print("=== DRY RUN ===")
@@ -254,10 +425,7 @@ def build(chapter_folder: str, dry_run: bool, resource_url_template: str):
         print("--- config.json preview ---")
         print(json.dumps(parsed_config, ensure_ascii=False, indent=2))
         print()
-        print(f"--- chapters[{chapter_no - 1}] (would write) ---")
-        print(json.dumps(new_entry, ensure_ascii=False, indent=2))
-        if meta.get("limitCurrent"):
-            print(f"--- limitChapterId would be set to: {chapter_id} ---")
+        print_diff(old_index_snapshot, global_index, chapter_no)
         return
 
     # Pipeline step 3: write config.json
@@ -292,28 +460,21 @@ def build(chapter_folder: str, dry_run: bool, resource_url_template: str):
     )
     print(f"✓ packed {zip_path.relative_to(REPO_ROOT)}")
 
-    # Pipeline step 6: update global index
-    if chapter_no <= len(chapters):
-        chapters[chapter_no - 1] = new_entry
-    else:
-        chapters.append(new_entry)
-    if meta.get("limitCurrent"):
-        global_index["limitChapterId"] = chapter_id
-    write_json(GLOBAL_CONFIG, global_index)
-    print(f"✓ updated {GLOBAL_CONFIG.name} (chapters[{chapter_no - 1}].id={chapter_id})")
-    if meta.get("limitCurrent"):
+    # Pipeline step 6: diff + write back to Feishu docx
+    print_diff(old_index_snapshot, global_index, chapter_no)
+    write_global_doc(md_text, global_index)
+    print(f"✓ updated global doc (chapters[{chapter_no - 1}].id={chapter_id})")
+    if chapter_cfg.get("limitCurrent"):
         print(f"  limitChapterId = {chapter_id}")
 
     # Pipeline step 7: cleanup
-    dialog_path.unlink()
-    setting_path.unlink()
-    meta_path.unlink()
-    print("✓ cleaned dialog.txt / setting.json / meta.json")
+    chapter_json_path.unlink()
+    print("✓ cleaned chapter.json")
 
 
 def main():
     parser = argparse.ArgumentParser(description="Build chapter from filled workspace and update global index")
-    parser.add_argument("chapter_folder", help="Chapter folder name, e.g. story_chapter_15_v1")
+    parser.add_argument("chapter_folder", help="Chapter folder name, e.g. story_chapter_17_v1")
     parser.add_argument("--dry-run", action="store_true", help="Validate + preview, do not write")
     parser.add_argument(
         "--resource-url-template",

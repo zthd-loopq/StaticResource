@@ -110,12 +110,9 @@ def merge_component_ids(base_ids: List[str], chapter_ids: List[str]) -> List[str
 
 
 
-def parse_content(content_path: Path) -> Tuple[List[dict], dict, List[dict]]:
-    with content_path.open("r", encoding="utf-8", newline="") as f:
-        rows = list(csv.reader(f, delimiter="\t", quotechar='"'))
-
+def parse_rows(rows: List[List[str]], label: str) -> Tuple[List[dict], dict, List[dict]]:
     if not rows:
-        raise UpgradeError(f"{content_path}: content is empty")
+        raise UpgradeError(f"{label}: content is empty")
 
     data_rows = rows[1:]
     front: List[dict] = []
@@ -171,13 +168,20 @@ def parse_content(content_path: Path) -> Tuple[List[dict], dict, List[dict]]:
             front.append(entry)
 
     if "backgroundImg" not in result:
-        raise UpgradeError(f"{content_path}: result.backgroundImg missing")
+        raise UpgradeError(f"{label}: result.backgroundImg missing")
 
     has_dialogue = any("dialogue" in x and x["dialogue"] for x in (front + behind))
     if not has_dialogue:
-        raise UpgradeError(f"{content_path}: no dialogue rows found")
+        raise UpgradeError(f"{label}: no dialogue rows found")
 
     return front, result, behind
+
+
+
+def parse_content(content_path: Path) -> Tuple[List[dict], dict, List[dict]]:
+    with content_path.open("r", encoding="utf-8", newline="") as f:
+        rows = list(csv.reader(f, delimiter="\t", quotechar='"'))
+    return parse_rows(rows, str(content_path))
 
 
 

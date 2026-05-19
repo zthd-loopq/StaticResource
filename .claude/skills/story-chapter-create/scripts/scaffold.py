@@ -34,18 +34,17 @@ def main():
         raise ScaffoldError(f"target already exists: {target}")
 
     shutil.copytree(TEMPLATE_DIR, target)
+    (target / "images").mkdir(exist_ok=True)
 
     print(f"✓ Created {target_name}/")
     print()
     print("To complete this chapter, please fill:")
+    print("  □ chapter.json   — name / coverUrl / unlockCoverUrl / templateId / componentIds / dialogSheetUrl")
     print("  □ images/        — drop chapter pngs (bg_*.png, character_*.png)")
-    print("  □ dialog.txt     — fill conversation rows")
-    print("  □ setting.json   — set templateId + componentIds")
-    print("  □ meta.json      — set name / coverUrl / unlockCoverUrl")
     print()
     print("Template guide: story_chapter_template/README.md")
     print()
-    print("When ready:")
+    print("When ready (build will pull dialog from Feishu sheet):")
     print(f"  python3 .claude/skills/story-chapter-create/scripts/build.py {target_name}")
 
 

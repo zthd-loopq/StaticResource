@@ -1,0 +1,296 @@
+{
+  "templateId": "lVkjJdC1",
+  "componentIds": [
+    "D0chZqnk",
+    "YvSxzmvl",
+    "ouFYfRPO",
+    "7Yred4NE",
+    "SwIckWvw",
+    "m3rxBwgw",
+    "ObOqkupN",
+    "Kl5YxRgz",
+    "x5HQHKcM",
+    "U5FJW8mA",
+    "lPn2RFOx",
+    "TFflnWD5",
+    "VqWv5NRF",
+    "1OZld4If",
+    "Z3V5uyKO",
+    "hpgBEX3Z",
+    "aAxSDSPv",
+    "ZfkaAAGY",
+    "jk7Vg8So",
+    "6vJtMils",
+    "Ip2ZuOcO",
+    "Z5aHv8g2",
+    "9YsQTOnI",
+    "HNC5743c",
+    "6r9WR3ZD",
+    "2EogEgfP",
+    "FX2IdDno",
+    "6iULeFQO",
+    "VL7Tw3Q8",
+    "4hXwBZWT",
+    "DeQxH1pT",
+    "5gtb1lzi",
+    "Z20Qn5LV",
+    "O1RYNJnI",
+    "LMmPORK3",
+    "fl63mSrz",
+    "FKKYLOun",
+    "FMrT0jJa",
+    "x4CHi5ml",
+    "taXJbSgc",
+    "Syo8OkKM",
+    "N1lPkF9T",
+    "myG2OkQG",
+    "X9JHnNdk",
+    "5UFRdpyL",
+    "q29EGEzx",
+    "R7AsVOKh",
+    "0GzjuI6k",
+    "7sS7j6FK",
+    "4YnPD2rK",
+    "1Q8rDiaj",
+    "MsEP0QxZ",
+    "TFe8FqH3",
+    "1hlLDNpO",
+    "iZ2IDhpH",
+    "hrlJNwAj",
+    "ySAD8fcO",
+    "qj5tUZ36",
+    "GfVcJFAg"
+  ],
+  "front": [
+    {
+      "dialogue": "Tiffany, serve!",
+      "characterName": "Chloe",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Heads up!",
+      "characterName": "Tiffany",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "!!!",
+      "characterName": "Scarlett",
+      "characterImg": "result:f509qs9w",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "That's completely unfair! You can't aim at people!",
+      "characterName": "Harper",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "You agreed to this. Backing out now? Remember - losers leave.",
+      "characterName": "Chloe",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Harper, get ready. They're serving again.",
+      "characterName": "Scarlett",
+      "characterImg": "result:f509qs9w",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "But you could get hurt!",
+      "characterName": "Harper",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Not if we return every shot.",
+      "characterName": "Scarlett",
+      "characterImg": "result:f509qs9w",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "As Scarlett concentrates on the game, this unusual match catches the attention of a nearby expert.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "That woman...she's countering under these conditions?",
+      "characterName": "???",
+      "characterImg": "character_06.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Final point - Scarlett! We won! Yes!",
+      "characterName": "Harper",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Hmph!",
+      "characterName": "Chloe",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Losing the match, Chloe \"accidentally\" hurls her racket across the court.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "What?!",
+      "characterName": "Scarlett",
+      "characterImg": "result:f509qs9w",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Look out!Intentionally harming others is the worst thing on a tennis court. Please leave - you're not welcome here.",
+      "characterName": "???",
+      "characterImg": "character_05.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Not welcome? Do you know who I am?!",
+      "characterName": "Chloe",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Whoever you are, this is my club, and I have every right to ban you.",
+      "characterName": "???",
+      "characterImg": "character_06.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "You'll regret this! Tiffany, we're leaving!",
+      "characterName": "Chloe",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Thank you for your help, sir.",
+      "characterName": "Scarlett",
+      "characterImg": "result:f509qs9w",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Please, call me Daniel. To make up for that, let me treat you both to our VIP hot spring. I insist.",
+      "characterName": "Daniel",
+      "characterImg": "character_06.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Oh, wonderful!",
+      "characterName": "Harper",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Then I guess I’ll have to dress up~",
+      "characterName": "Scarlett",
+      "characterImg": "result:f509qs9w",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "A Japanese onsen! Scarlett, I love it here!",
+      "characterName": "Harper",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Let's enjoy the moment.",
+      "characterName": "Scarlett",
+      "characterImg": "result:9pm2buz8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Ugh, that was SO satisfying earlier! I could watch Chloe get humiliated a thousand times!",
+      "characterName": "Harper",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "True. While Mr. Daniel apologized to us, we're really the ones who should be thanking him.",
+      "characterName": "Scarlett",
+      "characterImg": "result:9pm2buz8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Wait...Daniel...why does that name sound so familiar?Oh my god! He's that famous tennis star!",
+      "characterName": "Harper",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "What",
+      "characterName": "Scarlett",
+      "characterImg": "result:9pm2buz8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "It's really him! I saw him play at Wimbledon. They call him the \"Emperor of the Court\" for his calm play!Ugh! I could've gotten his autograph if I'd recognized him earlier!",
+      "characterName": "Harper",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "I can see you're quite the fan.",
+      "characterName": "Scarlett",
+      "characterImg": "result:9pm2buz8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1,
+      "decorationImg": "button_01.webp"
+    },
+    {
+      "backgroundImg": "bg_04.webp",
+      "characterPos": 1
+    },
+    {
+      "backgroundImg": "bg_05.webp",
+      "characterPos": 1
+    },
+    {
+      "backgroundImg": "bg_06.webp",
+      "characterPos": 1
+    }
+  ]
+}
