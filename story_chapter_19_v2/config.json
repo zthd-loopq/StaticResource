@@ -255,7 +255,7 @@
       "characterPos": 2
     },
     {
-      "dialogue": "[{'text': 'Welcome distinguished guests to the Walton family gala.Tonight, we proudly reveal the next heir to Walton ', 'type': 'text'}, {'cellPosition': None, 'link': 'http://Enterprises.My', 'text': 'Enterprises.My', 'type': 'url'}, {'text': ' son - Liam Walton!', 'type': 'text'}]",
+      "dialogue": "Welcome distinguished guests to the Walton family gala.Tonight, we proudly reveal the next heir to Walton Enterprises.My son - Liam Walton!",
       "characterName": "Mrs. Walton",
       "characterImg": "character_04.webp",
       "backgroundImg": "bg_03.webp",
