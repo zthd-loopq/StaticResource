@@ -299,8 +299,7 @@
     },
     {
       "backgroundImg": "bg_03.webp",
-      "characterPos": 1,
-      "decorationImg": "button_01.webp"
+      "characterPos": 1
     },
     {
       "backgroundImg": "bg_04.webp",
