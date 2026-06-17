@@ -1,0 +1,107 @@
+{
+  "templateId": "hQMnM6qB",
+  "componentIds": [
+    "9VtcaLGT",
+    "v3xdDHd7",
+    "ujQyCZVr",
+    "7gpd3mgV",
+    "4BRE7syx",
+    "4svj5JRg",
+    "1yuDxxnm",
+    "N1iq2V8w",
+    "R3MMVdYX",
+    "bWLErQ4Z",
+    "wptqpPOd",
+    "vOi1Z4QN",
+    "4z0H9YWy",
+    "9j7mhWuM",
+    "Q3j71FO6",
+    "XlKsAGxb",
+    "0Zgw3OLX",
+    "vBT5RCNa",
+    "FrXbSNRl",
+    "nKV8uqbL",
+    "6LDJoEi4",
+    "f2ethDti",
+    "xUHkvC9w",
+    "ovYyDQyA",
+    "Wopm32PH"
+  ],
+  "front": [
+    {
+      "dialogue": "Wait. You're actually the new CEO?",
+      "characterName": "Manager Sam",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Yep. And you're fired.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Tiana, congrats. You're up.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Your plan's smart. You can do this.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Now let's get you a look that matches.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_01.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Okay, wow. I actually feel amazing.",
+      "characterName": "Tiana",
+      "characterImg": "result:q4t9b2m7",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "We still need intel. I'm getting it from Blake's office.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I'm done. Don't call me again.",
+      "characterName": "Chloe",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Wait... Scarlett?",
+      "characterName": "Blake",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Don't act like this isn't about me. You still want me.",
+      "characterName": "Blake",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    }
+  ]
+}

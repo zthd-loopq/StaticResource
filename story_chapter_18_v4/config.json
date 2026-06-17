@@ -1,0 +1,163 @@
+{
+  "templateId": "lVkjJdC1",
+  "componentIds": [
+    "G11AwzLK",
+    "zIoCb43t",
+    "7Gv5pKGv",
+    "q5qvpqWN",
+    "UlUvu86r",
+    "HoMonrGn",
+    "Z2qPUz9g",
+    "BAXUhE75",
+    "x2uLEMFP",
+    "IXzmsGhM",
+    "4ShCjlQA",
+    "IXZg41Ym",
+    "uqKV1mjU",
+    "qCOYYMut",
+    "vmUpUc0T",
+    "SigEgFx1",
+    "UI2eVhVf",
+    "WcNEwkPd",
+    "7vJFoERI",
+    "zzjssE2f",
+    "umXeyx8I",
+    "eoJcC5Nj",
+    "D0chZqnk",
+    "YvSxzmvl",
+    "ouFYfRPO",
+    "7Yred4NE",
+    "SwIckWvw",
+    "m3rxBwgw",
+    "ObOqkupN",
+    "Kl5YxRgz",
+    "x5HQHKcM",
+    "U5FJW8mA",
+    "lPn2RFOx",
+    "TFflnWD5",
+    "VqWv5NRF",
+    "1OZld4If",
+    "Z3V5uyKO",
+    "hpgBEX3Z",
+    "aAxSDSPv",
+    "ZfkaAAGY",
+    "jk7Vg8So",
+    "6vJtMils",
+    "Ip2ZuOcO",
+    "Z5aHv8g2",
+    "9YsQTOnI",
+    "HNC5743c",
+    "6r9WR3ZD",
+    "2EogEgfP",
+    "FX2IdDno",
+    "6iULeFQO",
+    "VL7Tw3Q8",
+    "4hXwBZWT",
+    "DeQxH1pT",
+    "5gtb1lzi",
+    "Z20Qn5LV",
+    "O1RYNJnI",
+    "LMmPORK3",
+    "fl63mSrz",
+    "FKKYLOun",
+    "FMrT0jJa",
+    "x4CHi5ml",
+    "taXJbSgc",
+    "Syo8OkKM",
+    "N1lPkF9T",
+    "myG2OkQG",
+    "X9JHnNdk",
+    "5UFRdpyL",
+    "q29EGEzx",
+    "R7AsVOKh",
+    "0GzjuI6k",
+    "7sS7j6FK",
+    "4YnPD2rK",
+    "1Q8rDiaj",
+    "MsEP0QxZ",
+    "TFe8FqH3",
+    "1hlLDNpO",
+    "iZ2IDhpH",
+    "hrlJNwAj",
+    "ySAD8fcO",
+    "qj5tUZ36",
+    "GfVcJFAg"
+  ],
+  "front": [
+    {
+      "dialogue": "Heads up!",
+      "characterName": "Tiffany",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Seriously? You can't aim at people.",
+      "characterName": "Harper",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Relax. We'll send every shot right back.",
+      "characterName": "Scarlett",
+      "characterImg": "result:f509qs9w",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Match point. We won!",
+      "characterName": "Harper",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I'm Daniel. Let me make it up to you with the VIP hot spring.",
+      "characterName": "Daniel",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "An actual onsen? I love this place.",
+      "characterName": "Harper",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Watching Chloe lose was deeply healing.",
+      "characterName": "Harper",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Honestly, we should be thanking Daniel.",
+      "characterName": "Scarlett",
+      "characterImg": "result:9pm2buz8",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Wait. Daniel? The tennis Daniel?",
+      "characterName": "Harper",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "You're kidding. I could've gotten his autograph!",
+      "characterName": "Harper",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    }
+  ]
+}

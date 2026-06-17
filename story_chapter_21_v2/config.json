@@ -1,0 +1,118 @@
+{
+  "templateId": "hQMnM6qB",
+  "componentIds": [
+    "9VtcaLGT",
+    "s9YBgnim",
+    "v3xdDHd7",
+    "ujQyCZVr",
+    "7gpd3mgV",
+    "4BRE7syx",
+    "4svj5JRg",
+    "1yuDxxnm",
+    "N1iq2V8w",
+    "R3MMVdYX",
+    "bWLErQ4Z",
+    "VRbWlCyg",
+    "wptqpPOd",
+    "vOi1Z4QN",
+    "4z0H9YWy",
+    "9j7mhWuM",
+    "Q3j71FO6",
+    "XlKsAGxb",
+    "0Zgw3OLX",
+    "vBT5RCNa",
+    "FrXbSNRl",
+    "Ua9se3J8",
+    "FoVNH2Ck",
+    "zJDBEwIZ",
+    "rJvOGXgX",
+    "3NFLr69z",
+    "Vu7Kidci",
+    "08Rb9uTF",
+    "BmUogHU4",
+    "3wA3fw46",
+    "nKV8uqbL",
+    "6LDJoEi4",
+    "f2ethDti",
+    "xUHkvC9w",
+    "SY8EPtPZ",
+    "h4tVwHM5"
+  ],
+  "front": [
+    {
+      "dialogue": "Ethics? In business? Cute.",
+      "characterName": "Mrs. Walton",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "I messed up everything.",
+      "characterName": "Scarlett",
+      "characterImg": "result:zsaow0y9",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Then come crash at my place.",
+      "characterName": "Tiana",
+      "characterImg": "result:q4t9b2m7",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Okay... I do feel better.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Then let me put you in something cute for tea.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_03.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Okay, these pastries are saving my life.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Vivian wants war? Fine. I'll win.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "That's my girl.",
+      "characterName": "Tiana",
+      "characterImg": "result:f7lng9h5",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Make that two people betting on you.",
+      "characterName": "Daniel",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Daniel?",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    }
+  ]
+}

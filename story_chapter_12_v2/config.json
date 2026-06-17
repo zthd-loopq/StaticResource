@@ -1,0 +1,126 @@
+{
+  "templateId": "80EowtBu",
+  "componentIds": [
+    "gTqF2e9S",
+    "U6sFO7OJ",
+    "h2GWTiPm",
+    "6jXdmnMC",
+    "2hXGSpv3",
+    "2K9XDZre",
+    "OMX0VrA3",
+    "Ear0l1bK",
+    "d1fJmRPI",
+    "syCepQRj",
+    "KwMBaHsa",
+    "8WixX16h",
+    "drawReru",
+    "AC5gQfkp",
+    "VVfLnNU7",
+    "cw2iO3Dv",
+    "ZTiKBOF2",
+    "IqFIJKcM",
+    "ZJ0EuznO",
+    "WUP2PmJ4",
+    "5kOFWaEM",
+    "TWd6hzrh",
+    "YIhbCmww",
+    "X2Ewxuih",
+    "g9mTJcJ0",
+    "OfXLusom",
+    "K6yM8DcT",
+    "HvxKfcoG",
+    "WWDrtpiC",
+    "kcwJai6Z",
+    "IHd1dJQh",
+    "UMVKRMwR",
+    "c47IWICp",
+    "nTBlxkhg",
+    "dUVVVHa6",
+    "noIUvFBJ",
+    "SickUP5p",
+    "SYMQ4qG7",
+    "XTqELk9j",
+    "0qPoIcYm",
+    "QpjsXOjW",
+    "Ia3yTzpE",
+    "ttynJoNf",
+    "z1zsc0WG",
+    "bqxhU2Ep",
+    "qIga0e16"
+  ],
+  "front": [
+    {
+      "dialogue": "Scarlett? No way.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Harper? Tree-climbing Harper?",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I'm seriously so happy to see you.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Go catch up. I'll survive without you for ten minutes.",
+      "characterName": "Liam",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Then help me pick the cutest swimsuit ever.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Obsessed. This look is perfect.",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Come on, let's celebrate with fruit wine.",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "For once, Scarlett actually relaxed.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_02.webp"
+    },
+    {
+      "dialogue": "Where the hell is Scarlett?",
+      "characterName": "Blake",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Scarlett, you're not getting away from me.",
+      "characterName": "Blake",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    }
+  ]
+}

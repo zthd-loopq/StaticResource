@@ -1,0 +1,103 @@
+{
+  "templateId": "pExByNuD",
+  "componentIds": [
+    "XGNDpjNs",
+    "uFDZ1NNL",
+    "dWn6Cn16",
+    "4Mfne97t",
+    "spe37mCD",
+    "3uVFarMj",
+    "RM8UcXi0",
+    "d0mAwaH1",
+    "7IDfJns9",
+    "sgjibSdU",
+    "A9kqVL0U",
+    "KiXhjYLA",
+    "jJPoEzdU",
+    "Z3qJDVZy",
+    "E7RDAIeG",
+    "XC8nqFh1",
+    "WvRWO5ao",
+    "yON7NdpY",
+    "RXQ1SRl6",
+    "LjBBTpei",
+    "88VjUOFF"
+  ],
+  "front": [
+    {
+      "dialogue": "Forget my love life. Focus on your match.",
+      "characterName": "Daniel",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "What's the point? I'll never go pro.",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "That's not true. You've got game.",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I can't afford real training.",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Then let me back you. And first, let's get you dressed for a huge meeting.",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "I love this dress.",
+      "characterName": "Anna",
+      "characterImg": "result:8oitexr7",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Good. Wear it to win over our future sponsor.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "I won't let these kids get used for profit.",
+      "characterName": "Daniel",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Then come with us and watch me do this right.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Wait... did you tank our deal because of Daniel?",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    }
+  ]
+}
