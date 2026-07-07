@@ -1,0 +1,107 @@
+{
+  "templateId": "hQMnM6qB",
+  "componentIds": [
+    "9VtcaLGT",
+    "v3xdDHd7",
+    "ujQyCZVr",
+    "7gpd3mgV",
+    "4BRE7syx",
+    "4svj5JRg",
+    "1yuDxxnm",
+    "N1iq2V8w",
+    "R3MMVdYX",
+    "bWLErQ4Z",
+    "wptqpPOd",
+    "vOi1Z4QN",
+    "4z0H9YWy",
+    "9j7mhWuM",
+    "Q3j71FO6",
+    "XlKsAGxb",
+    "0Zgw3OLX",
+    "vBT5RCNa",
+    "FrXbSNRl",
+    "nKV8uqbL",
+    "6LDJoEi4",
+    "f2ethDti",
+    "xUHkvC9w",
+    "ovYyDQyA",
+    "Wopm32PH"
+  ],
+  "front": [
+    {
+      "dialogue": "Pera. Você é mesmo a nova CEO?",
+      "characterName": "Manager Sam",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Sou. E você está demitido.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Tiana, parabéns. Agora é com você.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Seu plano é inteligente. Você consegue.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Agora vamos te dar um visual à altura.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_01.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Ok, uau. Eu me sinto incrível de verdade.",
+      "characterName": "Tiana",
+      "characterImg": "result:q4t9b2m7",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Ainda precisamos de informações. Vou pegar isso no escritório do Blake.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Cansei. Não me liga de novo.",
+      "characterName": "Chloe",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 1
+    },
+    {
+      "dialogue": "Pera... Scarlett?",
+      "characterName": "Blake",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Não finge que isso não é sobre mim. Você ainda me quer.",
+      "characterName": "Blake",
+      "characterImg": "character_04.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    }
+  ]
+}

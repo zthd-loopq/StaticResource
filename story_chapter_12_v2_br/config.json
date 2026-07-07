@@ -1,0 +1,126 @@
+{
+  "templateId": "80EowtBu",
+  "componentIds": [
+    "gTqF2e9S",
+    "U6sFO7OJ",
+    "h2GWTiPm",
+    "6jXdmnMC",
+    "2hXGSpv3",
+    "2K9XDZre",
+    "OMX0VrA3",
+    "Ear0l1bK",
+    "d1fJmRPI",
+    "syCepQRj",
+    "KwMBaHsa",
+    "8WixX16h",
+    "drawReru",
+    "AC5gQfkp",
+    "VVfLnNU7",
+    "cw2iO3Dv",
+    "ZTiKBOF2",
+    "IqFIJKcM",
+    "ZJ0EuznO",
+    "WUP2PmJ4",
+    "5kOFWaEM",
+    "TWd6hzrh",
+    "YIhbCmww",
+    "X2Ewxuih",
+    "g9mTJcJ0",
+    "OfXLusom",
+    "K6yM8DcT",
+    "HvxKfcoG",
+    "WWDrtpiC",
+    "kcwJai6Z",
+    "IHd1dJQh",
+    "UMVKRMwR",
+    "c47IWICp",
+    "nTBlxkhg",
+    "dUVVVHa6",
+    "noIUvFBJ",
+    "SickUP5p",
+    "SYMQ4qG7",
+    "XTqELk9j",
+    "0qPoIcYm",
+    "QpjsXOjW",
+    "Ia3yTzpE",
+    "ttynJoNf",
+    "z1zsc0WG",
+    "bqxhU2Ep",
+    "qIga0e16"
+  ],
+  "front": [
+    {
+      "dialogue": "Scarlett? Não acredito.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Harper? A Harper que subia em árvores?",
+      "characterName": "Scarlett",
+      "characterImg": "result:s5y8f2l4",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Eu estou muito feliz de te ver.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Vai colocar o papo em dia. Eu sobrevivo dez minutos sem você.",
+      "characterName": "Liam",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Então me ajuda a escolher o maiô mais fofo de todos.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Amei. Esse look está perfeito.",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Vem, vamos comemorar com vinho de frutas.",
+      "characterName": "Harper",
+      "characterImg": "result:z1g7u3e9",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Pela primeira vez, Scarlett realmente relaxou.",
+      "characterName": "special:narration",
+      "backgroundImg": "bg_02.webp"
+    },
+    {
+      "dialogue": "Onde diabos está a Scarlett?",
+      "characterName": "Blake",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Scarlett, você não vai escapar de mim.",
+      "characterName": "Blake",
+      "characterImg": "character_03.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    }
+  ]
+}

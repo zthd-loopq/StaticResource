@@ -1,0 +1,103 @@
+{
+  "templateId": "pExByNuD",
+  "componentIds": [
+    "XGNDpjNs",
+    "uFDZ1NNL",
+    "dWn6Cn16",
+    "4Mfne97t",
+    "spe37mCD",
+    "3uVFarMj",
+    "RM8UcXi0",
+    "d0mAwaH1",
+    "7IDfJns9",
+    "sgjibSdU",
+    "A9kqVL0U",
+    "KiXhjYLA",
+    "jJPoEzdU",
+    "Z3qJDVZy",
+    "E7RDAIeG",
+    "XC8nqFh1",
+    "WvRWO5ao",
+    "yON7NdpY",
+    "RXQ1SRl6",
+    "LjBBTpei",
+    "88VjUOFF"
+  ],
+  "front": [
+    {
+      "dialogue": "Esquece minha vida amorosa. Foca na sua partida.",
+      "characterName": "Daniel",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Qual é o sentido? Eu nunca vou virar profissional.",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Isso não é verdade. Você joga muito.",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Eu não tenho dinheiro para treino de verdade.",
+      "characterName": "Anna",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Então deixa eu te apoiar. E primeiro, vamos te vestir para uma reunião enorme.",
+      "characterName": "Scarlett",
+      "characterImg": "result:6wuy174m",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_02.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "Eu amo este vestido.",
+      "characterName": "Anna",
+      "characterImg": "result:8oitexr7",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Ótimo. Use ele para conquistar nosso futuro patrocinador.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Não vou deixar essas crianças serem usadas por lucro.",
+      "characterName": "Daniel",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Então venha com a gente e veja eu fazer isso do jeito certo.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Pera... você sabotou nosso acordo por causa do Daniel?",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    }
+  ]
+}

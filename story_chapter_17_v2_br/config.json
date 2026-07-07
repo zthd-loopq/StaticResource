@@ -1,0 +1,157 @@
+{
+  "templateId": "lVkjJdC1",
+  "componentIds": [
+    "G11AwzLK",
+    "zIoCb43t",
+    "7Gv5pKGv",
+    "q5qvpqWN",
+    "UlUvu86r",
+    "HoMonrGn",
+    "Z2qPUz9g",
+    "BAXUhE75",
+    "x2uLEMFP",
+    "IXzmsGhM",
+    "4ShCjlQA",
+    "IXZg41Ym",
+    "uqKV1mjU",
+    "qCOYYMut",
+    "vmUpUc0T",
+    "SigEgFx1",
+    "UI2eVhVf",
+    "WcNEwkPd",
+    "7vJFoERI",
+    "zzjssE2f",
+    "umXeyx8I",
+    "eoJcC5Nj",
+    "D0chZqnk",
+    "YvSxzmvl",
+    "ouFYfRPO",
+    "7Yred4NE",
+    "SwIckWvw",
+    "m3rxBwgw",
+    "ObOqkupN",
+    "Kl5YxRgz",
+    "x5HQHKcM",
+    "U5FJW8mA",
+    "lPn2RFOx",
+    "TFflnWD5",
+    "VqWv5NRF",
+    "1OZld4If",
+    "Z3V5uyKO",
+    "hpgBEX3Z",
+    "aAxSDSPv",
+    "ZfkaAAGY",
+    "jk7Vg8So",
+    "6vJtMils",
+    "Ip2ZuOcO",
+    "Z5aHv8g2",
+    "9YsQTOnI",
+    "HNC5743c",
+    "6r9WR3ZD",
+    "2EogEgfP",
+    "FX2IdDno",
+    "6iULeFQO",
+    "pxnZEtSA",
+    "hF8PlYj3",
+    "tAGIbYGV",
+    "uTwpaWaX",
+    "sRFt4fCA",
+    "d7hVHjLt",
+    "IlodgAMJ",
+    "UokhMIHf",
+    "MbpUsE48",
+    "zhLMTaa3",
+    "jfddTNcY",
+    "UVYATdzR",
+    "rGLeQYc3",
+    "uRXTWCj3",
+    "grFO1sKb",
+    "Eij1NKc3",
+    "bXlqKhMP",
+    "K1rEXS5y",
+    "kBQn4yO0",
+    "61Yk6bdz",
+    "xrfqBJtn",
+    "CvfS8LgX",
+    "EEJ9rVpm",
+    "DW91QLjH",
+    "wWIX8ecG",
+    "yjhz1BsP",
+    "QqItL2I4",
+    "Gr20aoKQ"
+  ],
+  "front": [
+    {
+      "dialogue": "Precisamos de uma marca esportiva famosa.",
+      "characterName": "Scarlett",
+      "characterImg": "result:q0w8e4r6",
+      "backgroundImg": "bg_01.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Oi, linda. Ocupada sendo CEO?",
+      "characterName": "Harper",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Tênis neste fim de semana?",
+      "characterName": "Harper",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Óbvio. Estou com saudade de te destruir no jogo.",
+      "characterName": "Scarlett",
+      "backgroundImg": "bg_02.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Então vai trocar de roupa, garota do tênis.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    }
+  ],
+  "result": {
+    "backgroundImg": "bg_03.webp"
+  },
+  "behind": [
+    {
+      "dialogue": "E aí? Ainda pareço saber jogar?",
+      "characterName": "Scarlett",
+      "characterImg": "result:f509qs9w",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Por favor. Você está perfeita.",
+      "characterName": "Harper",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    },
+    {
+      "dialogue": "Scarlett, pare de envergonhar a família. Preciso desta quadra.",
+      "characterName": "Chloe",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Duplas. Quem perder sai.",
+      "characterName": "Chloe",
+      "characterImg": "character_02.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 2
+    },
+    {
+      "dialogue": "Vamos mirar todas as bolas na Scarlett.",
+      "characterName": "Chloe",
+      "characterImg": "character_01.webp",
+      "backgroundImg": "bg_03.webp",
+      "characterPos": 0
+    }
+  ]
+}
